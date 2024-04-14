@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+.contenido {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 4fr 0.5fr;
+  grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
+}
+
+.header {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #073763;
+  color: #4dc2b7;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: header;
+  border-bottom: 4px solid black;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+.header .logo img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+.header .menu ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 20px;
+}
+.header .menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.header .menu a:hover {
+  color: #4dc2b7;
+  background-color: #073763;
+  border-radius: 30px;
+}
+
+.main {
+  padding: 5px;
+  background-color: #073763;
+  color: #4dc2b7;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  grid-area: main;
+}
+.main div img {
+  width: 100%;
+  height: auto;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #073763;
+  color: #4dc2b7;
+  grid-area: aside;
+  border: 1px solid black;
+}
+.aside .noticias p {
+  font-size: 16px;
+  line-height: 1.3;
+  color: white;
+  text-align: left;
+}
+.aside .noticias {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.aside h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+.aside .noticias h3 {
+  text-align: right;
+}
+.aside .noticias h3 a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.aside .noticias h3 a:hover {
+  color: #4dc2b7;
+  border-radius: 50%;
+}
+
+.main_mercados {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #4dc2b7;
+  color: #073763;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-area: footer;
+}
+.footer h2 a {
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 40%;
+  background-color: #073763;
+}
+.footer h2 a:hover {
+  color: #4dc2b7;
+  margin: 10px;
+  padding: 10px;
+  background-color: #032546;
+  border-radius: 40%;
+}
+.footer .enlaces ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-around;
+  list-style-type: none;
+  text-decoration: none;
+}
+.footer .enlaces ul li {
+  margin: 5px;
+  padding: 10px;
+  border-left: 2px solid #073763;
+  border-right: 2px solid #073763;
+  color: white;
+}
+.footer .enlaces ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.footer .enlaces ul li a:hover {
+  color: #073763;
+}
+.footer .redes h4 {
+  font-size: 1.2rem;
+}
+.footer .redes ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.footer .redes img {
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+}
+.contenido-info {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr 4fr 0.5fr;
+  grid-template-areas:
+    "header header"
+    "main-info aside-info"
+    "footer footer";
+}
+.main-info {
+  padding: 5px;
+  background-color: #073763;
+  color: #4dc2b7;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  grid-area: main-info;
+}
+.main-info h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+.main-info p {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  padding: 5px;
+}
+.main-info h3 {
+  text-align: end;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+.main-info h3 a {
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  border-radius: 20%;
+  background-color: #4dc2b7;
+}
+.main-info h3 a:hover {
+  margin: 5px;
+  padding: 5px;
+  color: #4dc2b7;
+  background-color: black;
+  border-radius: 20%;
+}
+.aside-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #073763;
+  color: #4dc2b7;
+  grid-area: aside-info;
+  align-items: center;
+}
+.contenido-mercado {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr 0.5fr;
+  grid-template-areas:
+    "header"
+    "main-mercado"
+    "footer";
+}
+.main-mercado {
+  background-color: #073763;
+  color: #4dc2b7;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  grid-area: main-mercado;
+}
+.main-mercado h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: 2px underline;
+}
+.main-mercado p {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  line-height: 1.3px;
+}
+.main-mercado details {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+.main-mercado details summary:hover {
+  color: #073763;
+  background-color: #4dc2b7;
+}
+.main-mercado details div {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.main-mercado details img {
+  width: 500px;
+  height: auto;
+}
+.main-enlaces .formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 400px) {
+  .contenido {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 0.5fr;
+    grid-template-areas:
+      "header"
+      "main"
+      "aside"
+      "footer";
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .contenido {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr 0.5fr;
+    grid-template-areas:
+      "header"
+      "main"
+      "aside"
+      "footer";
+  }
+}
+.tutoriales {
+  background-color: #032546;
+  color: #4dc2b7;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
