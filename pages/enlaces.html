@@ -14,57 +14,79 @@
   </head>
   <body>
     <header id="enlaces" class="header">
-      <div>
-        <h2>Enlaces</h2>
+      <div class="contento">
+        <div class="menuo containero">
+          <h2 class="tutorialeso">Enlaces Principales</h2>
+          <input type="checkbox" id="menuo">
+          <label for="menuo">
+            <img src="../assets/img/hamburger.png" class="menu-iconoo" alt="">
+          </label>
+          <nav class="navbaro">
+            <ul>
+            <li>
+              <a href="../index.html">Principal</a>
+            </li>
+            <li >
+              <a href="./informacion.html">Información</a>
+            </li>
+            <li >
+              <a  href="./mercados.html">Mercados</a>
+            </li>
+            <li >
+              <a  href="./tutoriales.html">Tutoriales</a>
+            </li>
+            <li >
+              <a  href="#enlaces">Enlaces</a>
+            </li>
+          </nav>
+        </div>
       </div>
-      <nav class="menu">
-        <ul class="nav nav-underline">
-          <li class="nav-item">
-            <a class="nav-link" href="../index.html">Principal</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./informacion.html">Información</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./mercados.html">Mercados</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./tutoriales.html">Tutoriales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#enlaces">Enlaces</a>
-          </li>
-        </ul>
-      </nav>
     </header>
-    <hr />
-    <main class="main-enlaces">
-      <div class="formulario">
-        <p>Por cualquier duda que tengan</p>
-        <form>
-          <fieldset>
-            <legend>Dejanos tu consulta:</legend>
-
-            <label for="nameContacto">Nombre</label>
-            <input type="text" name="name" id="nameContacto" />
-
-            <label for="emailContacto">Correo Electrónico</label>
-            <input type="text" name="email" id="emailContacto" required />
-
-            <label for="msjContacto">Tu mensaje</label>
-            <textarea
-              name="menssage"
-              id="msjContacto"
-              cols="30"
-              rows="10"
-              required
-            ></textarea>
-
-            <input type="submit" value="Enviar Mensaje" />
-          </fieldset>
-        </form>
+    <div class="contenedor-grid">
+      <main class="main-enlaces">
+        <div class="formulario">
+          <article>Por cualquier duda que tengan</article>
+          <form class="formulario-interno">
+            <fieldset>
+              <legend>Dejanos tu consulta:</legend>
+  
+              <div>
+                <label for="nameContacto">Nombre</label>
+                <input type="text" name="name" id="nameContacto" />
+              </div>
+              <div>
+                <label for="emailContacto">Correo E.</label>
+                <input type="text" name="email" id="emailContacto" required />
+              </div>
+              <div>
+                <label for="msjContacto">Tu mensaje</label>
+                <textarea
+                  name="menssage"
+                  id="msjContacto"
+                  cols="30"
+                  rows="10"
+                  required
+                ></textarea>
+              </div>
+              <input type="submit" value="Enviar Mensaje" />
+            </fieldset>
+          </form>
+        </div>
+      </main>
+      <aside class="aside-enlaces-principales">
+        <article>Aquí puedes crear tu cuenta de <a href="">Binance</a> con mi enlace de referido.</article>
+        <article>Aquí puedes crear tu cuenta de <a href="">Quantfury</a> con mi códig de referido: TPY8U33N.</article>
+        <article>Aquí puedes crear tu cuenta en <a href="">Ledn</a> apretando en el enlace.</article>
+        <article>Aquí puedes crear tu cuenta de <a href="">OKX</a> con mi enlace de referido.</article>
+        <article>Aquí puedes crear tu cuenta de <a href="">TradingView</a> con mi enlace de referido.</article>
+      </aside>
+    </div>
+    <aside>
+      <div class="aside2">
+        <div class="imagen-final"><img src="../assets/img/criptomonedas.jpg" alt="criptomoedas"></div>
+        <article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, atque? Vel soluta optio est architecto molestias molestiae minima fugit dignissimos accusamus quia, in beatae, perspiciatis repellat aut quos. Accusamus eaque dignissimos porro sequi deleniti ex asperiores quam ad maiores nihil quisquam, pariatur illum veniam nam inventore excepturi doloribus. Labore dolore adipisci eius necessitatibus atque nemo sequi hic praesentium culpa, aliquid explicabo dolorem, rem iste repellat? Quia rem culpa perferendis exercitationem voluptatum rerum eaque quas hic minus ad sunt, maiores fuga laudantium magnam ab. Commodi facilis adipisci eligendi totam at soluta reiciendis mollitia accusamus ea provident iste saepe sapiente ex tenetur dolor, suscipit amet consequatur, quae nobis. Voluptate voluptas voluptates cum ex illum vitae est incidunt, sequi, nam culpa porro quas fugiat modi, earum officia. Laborum facere aliquid odio quam aperiam natus sit, tenetur quibusdam. Ab molestiae quia ullam repellat! Suscipit tenetur non nulla ratione, repudiandae laboriosam veritatis deserunt dicta soluta amet sequi illum tempore! Dolorem iusto quasi quaerat suscipit, nulla quis illo voluptate, nisi magni consequuntur saepe corrupti non ab, quidem pariatur. Animi perspiciatis dicta rerum voluptatum sapiente cumque hic ut, dolores reiciendis velit dolorem repudiandae, explicabo maxime veniam totam quas necessitatibus dolor nulla sunt illum ipsum impedit, quibusdam aspernatur!</article>
       </div>
-    </main>
+    </aside>
     <footer class="footer">
       <h2><a href="#enlaces">Inicio</a></h2>
       <div class="enlaces">

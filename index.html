@@ -16,38 +16,37 @@
   <body>
     <div class="contenido">
       <header id="inicio" class="header">
-        <div class="logo">
-          <img
-            src="./assets/img/android-chrome-192x192.png"
-            alt="logo de bitcoin"
-          />
-          <h1>Bitcoin LATAM</h1>
+        <div class="contento">
+        <div class="menuo containero">
+          <img src="./assets/img/android-chrome-192x192.png" alt="logoBTC">
+          <h1 class="tutorialeso">Bitcoin LATAM</h1>
+          <input type="checkbox" id="menuo">
+          <label for="menuo">
+            <img src="./assets/img/hamburger.png" class="menu-iconoo" alt="">
+          </label>
+          <nav class="navbaro">
+            <ul>
+            <li>
+              <a href="#inicio">Principal</a>
+            </li>
+            <li >
+              <a href="./pages/informacion.html">Información</a>
+            </li>
+            <li >
+              <a  href="./pages/mercados.html">Mercados</a>
+            </li>
+            <li >
+              <a  href="./pages/tutoriales.html">Tutoriales</a>
+            </li>
+            <li >
+              <a  href="./pages/enlaces.html">Enlaces</a>
+            </li>
+          </nav>
         </div>
-        <nav class="menu">
-          <ul class="nav nav-underline">
-            <li class="nav-item">
-              <a class="nav-link active" href="#inicio">Principal</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/informacion.html"
-                >Información</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/mercados.html">Mercados</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/tutoriales.html">Tutoriales</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./pages/enlaces.html">Enlaces</a>
-            </li>
-          </ul>
-        </nav>
+      </div>
       </header>
-      <hr />
       <main class="main">
-        <div>
+        <div class="contenedor-main">
           <form action="">
             <label for="monedas">Monedas</label>
             <select name="currenci" id="">
@@ -64,7 +63,7 @@
             </select>
           </form>
           <h2>BTC/USDT</h2>
-          <img src="./assets/img/btcusdt.png" alt="grafico ejemplo" />
+          <div class="imagen-central"><img src="./assets/img/btcusdt.png" alt="grafico ejemplo" /></div>
         </div>
       </main>
       <aside class="aside">
@@ -87,7 +86,6 @@
           <h3><a href="">Noticia Destacada</a></h3>
         </div>
       </aside>
-      <hr />
       <footer class="footer">
         <h2><a href="#inicio">Inicio</a></h2>
         <div class="enlaces">
