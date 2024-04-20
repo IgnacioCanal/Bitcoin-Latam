@@ -105,6 +105,7 @@ body {
 .header {
   width: 100%;
   padding: 10px 0;
+  height: 100px;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
   color: #4dc2b7;
   display: flex;
@@ -304,13 +305,14 @@ body {
   text-align: center;
   font-size: 1.3rem;
   text-decoration: 2px underline;
+  width: 100%;
 }
-.main-mercado p {
+.main-mercado article {
   padding: 10px;
   text-align: center;
   line-height: 1.3px;
   width: 100%;
-  height: 50px;
+  height: 100px;
 }
 .main-mercado details {
   width: 100%;
@@ -322,25 +324,31 @@ body {
   background-color: #4dc2b7;
 }
 .main-mercado details div {
-  height: 500px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-around;
+  justify-content: first baseline;
 }
 .main-mercado details img {
-  width: 500px;
+  width: 700px;
   height: auto;
-}
-.main-mercado .imagen-central {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
 }
 .main-mercado article {
   text-align: center;
   line-height: 1.3;
   padding: 10px;
+}
+.aside-mercado {
+  background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
+  color: #4dc2b7;
+  text-align: center;
+  padding: 20px;
+  line-height: 1.2;
+}
+.aside-mercado img {
+  padding: 20px;
+  width: 900px;
 }
 
 .tutoriales {
@@ -398,7 +406,7 @@ body {
   width: 800px;
   padding-bottom: 20px;
 }
-@media only screen and (min-width: 401px) and (max-width: 960px) {
+@media only screen and (max-width: 960px) {
   .main-info div a {
     font-size: 1.2rem;
     text-decoration: none;
@@ -432,6 +440,24 @@ body {
     padding-bottom: 20px;
   }
   .main div img {
+    width: 100%;
+  }
+  .header .contento .tutorialeso {
+    font-size: 1.2rem;
+  }
+  .footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .redes {
+    display: flex;
+    flex-direction: column;
+  }
+  .aside-mercado img {
+    width: 100%;
+  }
+  .main-mercado details img {
     width: 100%;
   }
 }
