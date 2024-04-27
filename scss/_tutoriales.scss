@@ -1,0 +1,25 @@
+.header {
+  .contento {
+    .menuo {
+      .tutorialeso {
+        font-size: 2rem;
+        padding: 20px;
+        @include mediaquery(1200px) {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+.tutoriales {
+  background: linear-gradient($color-fondo);
+  color: #4dc2b7;
+  .nav {
+    .nav-link {
+      color: #4dc2b7;
+      &:hover {
+        color: #4dc2b7;
+      }
+    }
+  }
+}

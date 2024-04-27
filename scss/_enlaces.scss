@@ -1,0 +1,81 @@
+.header {
+  .contento {
+    .menuo {
+      .enlac {
+        font-size: 2rem;
+        padding: 20px;
+        @include mediaquery(1200px) {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "main aside";
+  background: linear-gradient($color-fondo);
+  @include mediaquery(768px) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "main"
+      "aside";
+    background: linear-gradient($color-fondo);
+  }
+  .main-enlaces {
+    grid-area: main;
+    .formulario {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: left;
+      color: #4dc2b7;
+      padding: 10px;
+      article {
+        font-size: 1rem;
+        padding: 5px;
+        color: $color-letra;
+      }
+      .formulario-interno {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+    }
+  }
+  .aside-enlaces {
+    grid-area: aside;
+    color: #4dc2b7;
+    text-align: center;
+    padding: 20px;
+    article {
+      padding: 5px;
+      a {
+        color: $color-letra;
+      }
+    }
+  }
+}
+.aside2 {
+  background: linear-gradient($color-fondo);
+  color: #4dc2b7;
+  text-align: center;
+  padding: 30px;
+  .imagen-final {
+    img {
+      width: 800px;
+      padding-bottom: 20px;
+      @include mediaquery(960px) {
+        width: 100%;
+      }
+    }
+    article {
+      font-size: 1rem;
+      line-height: 1.2;
+    }
+  }
+}
