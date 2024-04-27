@@ -11,14 +11,18 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Bitcoin Latam</title>
   </head>
   <body>
       <header id="inicio" class="header">
         <div class="menuo containero">
           <img src="./assets/img/android-chrome-192x192.png" alt="logoBTC">
-          <h1 class="tutorialeso">Bitcoin LATAM</h1>
+          <h1 class="tutorialeso animate__animated animate__jackInTheBox">Bitcoin LATAM</h1>
           <input type="checkbox" id="menuo">
           <label for="menuo">
             <img src="./assets/img/hamburger.png" class="menu-iconoo" alt="">
@@ -61,7 +65,7 @@
             </select>
           </form>
           <h2>BTC/USDT</h2>
-          <div class="imagen-central" ><img src="./assets/img/btcusdt.png" alt="grafico ejemplo" /></div>
+          <div class="imagen-central" data-aos="zoom-in" ><img src="./assets/img/btcusdt.png" alt="grafico ejemplo" /></div>
         </div>
       </main>
       <aside class="aside">
@@ -127,5 +131,7 @@ La predicción tras el evento señala una pérdida de su valor y los usuarios se
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script> AOS.init({ easing: 'ease-out-back',duration: 2000});</script>
   </body>
 </html>

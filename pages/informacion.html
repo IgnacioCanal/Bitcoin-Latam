@@ -10,7 +10,11 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Información Sobre Bitcoin</title>
   </head>
   <body>
@@ -74,6 +78,9 @@
         <div class="aside-contenido">
           <h2>¿Qué es Bitcoin?</h2>
           <iframe class="video"
+          data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
             width="1000"
             height="630"
             src="https://www.youtube.com/embed/Gc2en3nHxA4?si=oj-nCplXukxUyCUX"
@@ -188,5 +195,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script> AOS.init({ easing: 'ease-out-back',duration: 2000});</script>
   </body>
 </html>
