@@ -1,4 +1,5 @@
 .header {
+  font-family: "Playfair Display", serif;
   .contento {
     .menuo {
       .enlac {
@@ -12,6 +13,7 @@
   }
 }
 .contenedor-grid {
+  font-family: "Playfair Display", serif;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr;
@@ -50,7 +52,7 @@
   .aside-enlaces {
     grid-area: aside;
     color: #4dc2b7;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     article {
       padding: 5px;
@@ -61,10 +63,14 @@
   }
 }
 .aside2 {
+  font-family: "Playfair Display", serif;
   background: linear-gradient($color-fondo);
   color: #4dc2b7;
   text-align: center;
   padding: 30px;
+  h4 {
+    text-decoration: underline;
+  }
   .imagen-final {
     img {
       width: 800px;
@@ -73,9 +79,9 @@
         width: 100%;
       }
     }
-    article {
-      font-size: 1rem;
-      line-height: 1.2;
-    }
+  }
+  article {
+    font-size: 1rem;
+    line-height: 1.2;
   }
 }

@@ -7,11 +7,11 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   line-height: 1.3;
 }
 body .header {
+  font-family: "Playfair Display", serif;
   width: 100%;
   padding: 10px;
   height: 100px;
@@ -121,39 +121,39 @@ body #menuo {
     display: initial;
   }
 }
-
-.main {
+body .main {
+  font-family: "Playfair Display", serif;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
   color: #4dc2b7;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.main .contenedor-main form {
+body .main .contenedor-main form {
   padding: 5px;
   background-color: black;
 }
-.main .contenedor-main form label {
+body .main .contenedor-main form label {
   color: #ffffff;
 }
-.main .contenedor-main form label option {
+body .main .contenedor-main form label option {
   color: #ffffff;
 }
-.main .contenedor-main h2 {
+body .main .contenedor-main h2 {
   text-align: center;
 }
-.main .contenedor-main .imagen-central {
+body .main .contenedor-main .imagen-central {
   display: flex;
   justify-content: center;
   padding: 20px;
 }
 @media screen and (max-width: 1000px) {
-  .main .contenedor-main .imagen-central img {
+  body .main .contenedor-main .imagen-central img {
     width: 100%;
   }
 }
-
-.aside {
+body .aside {
+  font-family: "Playfair Display", serif;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -162,44 +162,43 @@ body #menuo {
   color: #4dc2b7;
   border: 1px solid black;
 }
-.aside .noticias {
+body .aside .noticias {
   width: 100%;
   height: 100%;
   padding: 2rem;
-  margin: 10px;
   display: flex;
   flex-direction: column;
   font-size: 20px;
 }
-.aside .noticias h2 {
+body .aside .noticias h2 {
   text-align: center;
   text-decoration: underline;
   padding: 5px;
 }
-.aside .noticias p {
+body .aside .noticias p {
   text-align: center;
   font-style: italic;
 }
-.aside .noticias article {
+body .aside .noticias article {
   padding: 10px;
   font-size: 16px;
   line-height: 1.3;
   color: #4dc2b7;
   text-align: center;
 }
-.aside .noticias h3 {
+body .aside .noticias h3 {
   text-align: right;
 }
-.aside .noticias h3 a {
+body .aside .noticias h3 a {
   text-align: center;
   text-decoration: none;
   color: white;
 }
-.aside .noticias h3 a:hover {
+body .aside .noticias h3 a:hover {
   color: #4dc2b7;
 }
-
-.footer {
+body .footer {
+  font-family: "Playfair Display", serif;
   border-top: 2px solid black;
   width: 100%;
   height: 100px;
@@ -210,21 +209,21 @@ body #menuo {
   justify-content: space-evenly;
   align-items: center;
 }
-.footer h2 a {
+body .footer h2 a {
   padding: 10px;
   text-decoration: none;
   color: #dedede;
 }
-.footer h2 a:hover {
+body .footer h2 a:hover {
   color: #4dc2b7;
   padding: 10px;
 }
 @media screen and (max-width: 1000px) {
-  .footer h2 a {
+  body .footer h2 a {
     font-size: 1rem;
   }
 }
-.footer .enlaces ul {
+body .footer .enlaces ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -232,62 +231,65 @@ body #menuo {
   list-style-type: none;
   text-decoration: none;
 }
-.footer .enlaces ul li {
+body .footer .enlaces ul li {
   margin: 5px;
   padding: 10px;
   color: white;
 }
-.footer .enlaces ul li a {
+body .footer .enlaces ul li a {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
 }
-.footer .enlaces ul li a:hover {
+body .footer .enlaces ul li a:hover {
   color: #4dc2b7;
 }
 @media screen and (max-width: 900px) {
-  .footer .enlaces ul li a {
+  body .footer .enlaces ul li a {
     font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 900px) {
-  .footer .enlaces ul {
+  body .footer .enlaces ul {
     font-size: 0.8rem;
   }
 }
-.footer .redes {
+body .footer .redes {
   display: flex;
   flex-direction: row;
 }
-.footer .redes h4 {
+body .footer .redes h4 {
   font-size: 1rem;
 }
-.footer .redes ul {
+body .footer .redes ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   justify-content: flex-end;
 }
-.footer .redes ul li img {
+body .footer .redes ul li img {
   width: 30px;
   height: 30px;
   text-decoration: none;
   padding: 5px;
 }
 @media screen and (max-width: 900px) {
-  .footer .redes {
+  body .footer .redes {
     display: flex;
     flex-direction: column;
   }
 }
 @media screen and (max-width: 650px) {
-  .footer {
+  body .footer {
     height: 200px;
     display: flex;
     flex-direction: column;
   }
 }
 
+.header {
+  font-family: "Playfair Display", serif;
+}
 .header .contento .menuo .tutorialeso {
   font-size: 2rem;
   padding: 20px;
@@ -299,6 +301,7 @@ body #menuo {
 }
 
 .main-info {
+  font-family: "Playfair Display", serif;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
 }
 .main-info h2 {
@@ -345,6 +348,7 @@ body #menuo {
 }
 
 .aside-info {
+  font-family: "Playfair Display", serif;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
   padding: 10px;
 }
@@ -363,6 +367,7 @@ body #menuo {
 }
 
 .aside2-info {
+  font-family: "Playfair Display";
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
   color: #4dc2b7;
   padding: 10px;
@@ -393,6 +398,7 @@ body #menuo {
 }
 .aside2-info .grid-info .caja1 {
   grid-area: caja1;
+  padding: 3px;
   border: 2px black solid;
   background-color: #dedede;
   color: #032546;
@@ -404,6 +410,7 @@ body #menuo {
 .aside2-info .grid-info .caja2 {
   border: 2px black solid;
   grid-area: caja2;
+  padding: 3px;
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
@@ -414,6 +421,7 @@ body #menuo {
 .aside2-info .grid-info .caja3 {
   border: 2px black solid;
   grid-area: caja3;
+  padding: 3px;
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
@@ -424,6 +432,7 @@ body #menuo {
 .aside2-info .grid-info .caja4 {
   border: 2px black solid;
   grid-area: caja4;
+  padding: 3px;
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
@@ -434,6 +443,7 @@ body #menuo {
 .aside2-info .grid-info .caja5 {
   border: 2px black solid;
   grid-area: caja5;
+  padding: 3px;
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
@@ -444,6 +454,7 @@ body #menuo {
 .aside2-info .grid-info .caja6 {
   border: 2px black solid;
   grid-area: caja6;
+  padding: 3px;
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
@@ -452,6 +463,9 @@ body #menuo {
   transform: scale(1.5, 1.5);
 }
 
+.contenido-mercado {
+  font-family: "Playfair Display", serif;
+}
 .contenido-mercado .header .contento .menuo .mercado {
   font-size: 2rem;
   padding: 20px;
@@ -469,7 +483,7 @@ body #menuo {
 }
 .contenido-mercado .main-mercado h2 {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-decoration: 2px underline;
   padding: 5px;
 }
@@ -478,6 +492,9 @@ body #menuo {
   text-align: center;
   line-height: 1.3px;
   width: 100%;
+}
+.contenido-mercado .main-mercado article ul li {
+  padding: 2px;
 }
 .contenido-mercado .main-mercado details {
   width: 100%;
@@ -534,6 +551,9 @@ body #menuo {
   padding: 10px;
 }
 
+.header {
+  font-family: "Playfair Display", serif;
+}
 .header .contento .menuo .tutorialeso {
   font-size: 2rem;
   padding: 20px;
@@ -545,6 +565,7 @@ body #menuo {
 }
 
 .tutoriales {
+  font-family: "Playfair Display", serif;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
   color: #4dc2b7;
 }
@@ -555,6 +576,9 @@ body #menuo {
   color: #4dc2b7;
 }
 
+.header {
+  font-family: "Playfair Display", serif;
+}
 .header .contento .menuo .enlac {
   font-size: 2rem;
   padding: 20px;
@@ -566,6 +590,7 @@ body #menuo {
 }
 
 .contenedor-grid {
+  font-family: "Playfair Display", serif;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr;
@@ -605,7 +630,7 @@ body #menuo {
 .contenedor-grid .aside-enlaces {
   grid-area: aside;
   color: #4dc2b7;
-  text-align: center;
+  text-align: left;
   padding: 20px;
 }
 .contenedor-grid .aside-enlaces article {
@@ -616,10 +641,14 @@ body #menuo {
 }
 
 .aside2 {
+  font-family: "Playfair Display", serif;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
   color: #4dc2b7;
   text-align: center;
   padding: 30px;
+}
+.aside2 h4 {
+  text-decoration: underline;
 }
 .aside2 .imagen-final img {
   width: 800px;
@@ -630,7 +659,7 @@ body #menuo {
     width: 100%;
   }
 }
-.aside2 .imagen-final article {
+.aside2 article {
   font-size: 1rem;
   line-height: 1.2;
 }
