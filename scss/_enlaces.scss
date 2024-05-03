@@ -12,6 +12,13 @@
     }
   }
 }
+.boton {
+  position: fixed;
+  width: 110px;
+  line-height: 20px;
+  bottom: 50px;
+  right: 30px;
+}
 .contenedor-grid {
   font-family: "Playfair Display", serif;
   display: grid;
@@ -30,6 +37,7 @@
   }
   .main-enlaces {
     grid-area: main;
+
     .formulario {
       display: flex;
       flex-direction: column;

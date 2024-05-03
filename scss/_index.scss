@@ -111,6 +111,38 @@ body {
       }
     }
   }
+  .boton {
+    position: fixed;
+    width: 110px;
+    line-height: 20px;
+    bottom: 50px;
+    right: 30px;
+    .mod {
+      .dialog {
+        .conten {
+          .modheader {
+            .titulo {
+              text-decoration: underline;
+              color: hsl(0, 0%, 0%);
+            }
+          }
+          .modbody {
+            p {
+              color: hsl(0, 0%, 0%);
+              spam {
+                color: hsl(0, 0%, 0%);
+              }
+            }
+          }
+          .modfooter {
+            .pie {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
   .main {
     font-family: "Playfair Display", serif;
     background: linear-gradient($color-fondo);
@@ -118,6 +150,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     .contenedor-main {
       form {
         padding: 5px;

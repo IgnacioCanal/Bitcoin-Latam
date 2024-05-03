@@ -12,10 +12,18 @@
     }
   }
 }
+.boton {
+  position: fixed;
+  width: 110px;
+  line-height: 20px;
+  bottom: 50px;
+  right: 30px;
+}
 .tutoriales {
   font-family: "Playfair Display", serif;
   background: linear-gradient($color-fondo);
   color: #4dc2b7;
+
   .nav {
     .nav-link {
       color: #4dc2b7;
