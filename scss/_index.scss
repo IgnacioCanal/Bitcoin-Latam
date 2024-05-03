@@ -117,27 +117,29 @@ body {
     line-height: 20px;
     bottom: 50px;
     right: 30px;
-    .mod {
-      .dialog {
-        .conten {
-          .modheader {
-            .titulo {
+  }
+  .mod {
+    .dialog {
+      .conten {
+        .modheader {
+          h2 {
+            text-decoration: underline;
+            color: hsl(0, 0%, 0%);
+            font-size: 2rem;
+          }
+        }
+        .modbody {
+          p {
+            color: $color-letra;
+            spam {
+              color: black;
               text-decoration: underline;
-              color: hsl(0, 0%, 0%);
             }
           }
-          .modbody {
-            p {
-              color: hsl(0, 0%, 0%);
-              spam {
-                color: hsl(0, 0%, 0%);
-              }
-            }
-          }
-          .modfooter {
-            .pie {
-              text-align: center;
-            }
+        }
+        .modfooter {
+          .pie {
+            font-size: 2rem;
           }
         }
       }

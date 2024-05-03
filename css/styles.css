@@ -128,18 +128,20 @@ body .boton {
   bottom: 50px;
   right: 30px;
 }
-body .boton .mod .dialog .conten .modheader .titulo {
+body .mod .dialog .conten .modheader h2 {
   text-decoration: underline;
   color: hsl(0, 0%, 0%);
+  font-size: 2rem;
 }
-body .boton .mod .dialog .conten .modbody p {
-  color: hsl(0, 0%, 0%);
+body .mod .dialog .conten .modbody p {
+  color: #4dc2b7;
 }
-body .boton .mod .dialog .conten .modbody p spam {
-  color: hsl(0, 0%, 0%);
+body .mod .dialog .conten .modbody p spam {
+  color: black;
+  text-decoration: underline;
 }
-body .boton .mod .dialog .conten .modfooter .pie {
-  text-align: center;
+body .mod .dialog .conten .modfooter .pie {
+  font-size: 2rem;
 }
 body .main {
   font-family: "Playfair Display", serif;
@@ -307,66 +309,80 @@ body .footer .redes ul li img {
   }
 }
 
-.header {
+body .header {
   font-family: "Playfair Display", serif;
 }
-.header .contento .menuo .tutorialeso {
+body .header .contento .menuo .tutorialeso {
   font-size: 2rem;
   padding: 20px;
 }
 @media screen and (max-width: 1200px) {
-  .header .contento .menuo .tutorialeso {
+  body .header .contento .menuo .tutorialeso {
     font-size: 1.5rem;
   }
 }
-
-.boton {
+body .boton {
   position: fixed;
   width: 110px;
   line-height: 20px;
   bottom: 50px;
   right: 30px;
 }
-
-.main-info {
+body .mod .dialog .conten .modheader h2 {
+  text-decoration: underline;
+  color: hsl(0, 0%, 0%);
+  font-size: 2rem;
+}
+body .mod .dialog .conten .modbody p {
+  color: #4dc2b7;
+}
+body .mod .dialog .conten .modbody p spam {
+  color: hsl(0, 0%, 0%);
+  text-decoration: underline;
+}
+body .mod .dialog .conten .modfooter .pie {
+  text-align: center;
+  font-size: 2rem;
+}
+body .main-info {
   font-family: "Playfair Display", serif;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
 }
-.main-info h2 {
+body .main-info h2 {
   text-align: center;
   text-decoration: underline;
   color: #dedede;
 }
-.main-info article {
+body .main-info article {
   font-size: 1.3rem;
   line-height: 1.5;
   padding: 5px;
   color: white;
   text-align: center;
 }
-.main-info article spam {
+body .main-info article spam {
   color: rgb(255, 165, 0);
 }
-.main-info div {
+body .main-info div {
   text-align: right;
   padding: 20px;
 }
-.main-info div a {
+body .main-info div a {
   font-size: 2rem;
   text-decoration: none;
   color: #4dc2b7;
   padding: 5px;
   transition: all 2s ease;
 }
-.main-info div a spam {
+body .main-info div a spam {
   color: rgb(255, 165, 0);
 }
 @media screen and (max-width: 768px) {
-  .main-info div a {
+  body .main-info div a {
     font-size: 1.2rem;
   }
 }
-.main-info div a:hover {
+body .main-info div a:hover {
   border: 2px solid black;
   border-radius: 70%;
   padding: 15px;
@@ -374,13 +390,12 @@ body .footer .redes ul li img {
   color: #032546;
   transform: scale(1.1, 1.1);
 }
-
-.aside-info {
+body .aside-info {
   font-family: "Playfair Display", serif;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
   padding: 10px;
 }
-.aside-info .aside-contenido {
+body .aside-info .aside-contenido {
   padding: 20px;
   color: white;
   text-decoration: underline;
@@ -389,12 +404,11 @@ body .footer .redes ul li img {
   flex-direction: column;
   justify-content: center;
 }
-.aside-info .aside-contenido .video {
+body .aside-info .aside-contenido .video {
   padding: 20px;
   width: 100%;
 }
-
-.aside2-info {
+body .aside2-info {
   font-family: "Playfair Display";
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
   color: #4dc2b7;
@@ -403,11 +417,11 @@ body .footer .redes ul li img {
   width: 100%;
   height: auto;
 }
-.aside2-info h3 {
+body .aside2-info h3 {
   text-align: center;
   text-decoration: underline;
 }
-.aside2-info .grid-info {
+body .aside2-info .grid-info {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -418,13 +432,13 @@ body .footer .redes ul li img {
   align-items: center;
 }
 @media screen and (max-width: 768px) {
-  .aside2-info .grid-info {
+  body .aside2-info .grid-info {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "caja1" "caja2" "caja3" "caja4" "caja5" "caja6";
   }
 }
-.aside2-info .grid-info .caja1 {
+body .aside2-info .grid-info .caja1 {
   grid-area: caja1;
   padding: 3px;
   border: 2px black solid;
@@ -432,10 +446,10 @@ body .footer .redes ul li img {
   color: #032546;
   transition: all 1s ease;
 }
-.aside2-info .grid-info .caja1:hover {
+body .aside2-info .grid-info .caja1:hover {
   transform: scale(1.5, 1.5);
 }
-.aside2-info .grid-info .caja2 {
+body .aside2-info .grid-info .caja2 {
   border: 2px black solid;
   grid-area: caja2;
   padding: 3px;
@@ -443,10 +457,10 @@ body .footer .redes ul li img {
   color: #032546;
   transition: all 1s ease;
 }
-.aside2-info .grid-info .caja2:hover {
+body .aside2-info .grid-info .caja2:hover {
   transform: scale(1.5, 1.5);
 }
-.aside2-info .grid-info .caja3 {
+body .aside2-info .grid-info .caja3 {
   border: 2px black solid;
   grid-area: caja3;
   padding: 3px;
@@ -454,10 +468,10 @@ body .footer .redes ul li img {
   color: #032546;
   transition: all 1s ease;
 }
-.aside2-info .grid-info .caja3:hover {
+body .aside2-info .grid-info .caja3:hover {
   transform: scale(1.5, 1.5);
 }
-.aside2-info .grid-info .caja4 {
+body .aside2-info .grid-info .caja4 {
   border: 2px black solid;
   grid-area: caja4;
   padding: 3px;
@@ -465,10 +479,10 @@ body .footer .redes ul li img {
   color: #032546;
   transition: all 1s ease;
 }
-.aside2-info .grid-info .caja4:hover {
+body .aside2-info .grid-info .caja4:hover {
   transform: scale(1.5, 1.5);
 }
-.aside2-info .grid-info .caja5 {
+body .aside2-info .grid-info .caja5 {
   border: 2px black solid;
   grid-area: caja5;
   padding: 3px;
@@ -476,10 +490,10 @@ body .footer .redes ul li img {
   color: #032546;
   transition: all 1s ease;
 }
-.aside2-info .grid-info .caja5:hover {
+body .aside2-info .grid-info .caja5:hover {
   transform: scale(1.5, 1.5);
 }
-.aside2-info .grid-info .caja6 {
+body .aside2-info .grid-info .caja6 {
   border: 2px black solid;
   grid-area: caja6;
   padding: 3px;
@@ -487,7 +501,7 @@ body .footer .redes ul li img {
   color: #032546;
   transition: all 1s ease;
 }
-.aside2-info .grid-info .caja6:hover {
+body .aside2-info .grid-info .caja6:hover {
   transform: scale(1.5, 1.5);
 }
 
@@ -509,6 +523,22 @@ body .footer .redes ul li img {
   line-height: 20px;
   bottom: 50px;
   right: 30px;
+}
+.contenido-mercado .mod .dialog .conten .modheader h2 {
+  text-decoration: underline;
+  color: hsl(0, 0%, 0%);
+  font-size: 2rem;
+}
+.contenido-mercado .mod .dialog .conten .modbody p {
+  color: #4dc2b7;
+}
+.contenido-mercado .mod .dialog .conten .modbody p spam {
+  color: black;
+  text-decoration: underline;
+}
+.contenido-mercado .mod .dialog .conten .modfooter .pie {
+  text-align: center;
+  font-size: 2rem;
 }
 .contenido-mercado .main-mercado {
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
@@ -607,6 +637,23 @@ body .footer .redes ul li img {
   right: 30px;
 }
 
+.mod .dialog .conten .modheader h2 {
+  text-decoration: underline;
+  color: hsl(0, 0%, 0%);
+  font-size: 2rem;
+}
+.mod .dialog .conten .modbody p {
+  color: #4dc2b7;
+}
+.mod .dialog .conten .modbody p spam {
+  color: black;
+  text-decoration: underline;
+}
+.mod .dialog .conten .modfooter .pie {
+  text-align: center;
+  font-size: 2rem;
+}
+
 .tutoriales {
   font-family: "Playfair Display", serif;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
@@ -638,6 +685,23 @@ body .footer .redes ul li img {
   line-height: 20px;
   bottom: 50px;
   right: 30px;
+}
+
+.mod .dialog .conten .modheader h2 {
+  text-decoration: underline;
+  color: hsl(0, 0%, 0%);
+  font-size: 2rem;
+}
+.mod .dialog .conten .modbody p {
+  color: #4dc2b7;
+}
+.mod .dialog .conten .modbody p spam {
+  color: black;
+  text-decoration: underline;
+}
+.mod .dialog .conten .modfooter .pie {
+  text-align: center;
+  font-size: 2rem;
 }
 
 .contenedor-grid {

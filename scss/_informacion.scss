@@ -1,181 +1,211 @@
-.header {
-  font-family: "Playfair Display", serif;
-  .contento {
-    .menuo {
-      .tutorialeso {
-        font-size: 2rem;
-        padding: 20px;
-        @include mediaquery(1200px) {
-          font-size: 1.5rem;
+body {
+  .header {
+    font-family: "Playfair Display", serif;
+    .contento {
+      .menuo {
+        .tutorialeso {
+          font-size: 2rem;
+          padding: 20px;
+          @include mediaquery(1200px) {
+            font-size: 1.5rem;
+          }
         }
       }
     }
   }
-}
-.boton {
-  position: fixed;
-  width: 110px;
-  line-height: 20px;
-  bottom: 50px;
-  right: 30px;
-}
-.main-info {
-  font-family: "Playfair Display", serif;
-  background: linear-gradient($color-fondo);
-
-  h2 {
-    text-align: center;
-    text-decoration: underline;
-    color: #dedede;
+  .boton {
+    position: fixed;
+    width: 110px;
+    line-height: 20px;
+    bottom: 50px;
+    right: 30px;
   }
-  article {
-    font-size: 1.3rem;
-    line-height: 1.5;
-    padding: 5px;
-    color: white;
-    text-align: center;
-    spam {
-      color: $bitcoin;
+  .mod {
+    .dialog {
+      .conten {
+        .modheader {
+          h2 {
+            text-decoration: underline;
+            color: hsl(0, 0%, 0%);
+            font-size: 2rem;
+          }
+        }
+        .modbody {
+          p {
+            color: $color-letra;
+            spam {
+              color: hsl(0, 0%, 0%);
+              text-decoration: underline;
+            }
+          }
+        }
+        .modfooter {
+          .pie {
+            text-align: center;
+            font-size: 2rem;
+          }
+        }
+      }
     }
   }
-  div {
-    text-align: right;
-    padding: 20px;
-    a {
-      font-size: 2rem;
-      text-decoration: none;
-      color: #4dc2b7;
+  .main-info {
+    font-family: "Playfair Display", serif;
+    background: linear-gradient($color-fondo);
+
+    h2 {
+      text-align: center;
+      text-decoration: underline;
+      color: #dedede;
+    }
+    article {
+      font-size: 1.3rem;
+      line-height: 1.5;
       padding: 5px;
+      color: white;
+      text-align: center;
       spam {
         color: $bitcoin;
       }
-      transition: all 2s ease;
-      @include mediaquery(768px) {
-        font-size: 1.2rem;
-      }
-      &:hover {
-        border: 2px solid black;
-        border-radius: 70%;
-        padding: 15px;
-        background: linear-gradient(
-          90deg,
-          hsl(36, 89%, 46%) 0%,
-          hsl(171, 85%, 44%) 70%
-        );
-        color: #032546;
-        transform: scale(1.1, 1.1);
-      }
     }
-  }
-}
-.aside-info {
-  font-family: "Playfair Display", serif;
-  background: linear-gradient($color-fondo);
-  padding: 10px;
-  .aside-contenido {
-    padding: 20px;
-    color: white;
-    text-decoration: underline;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    .video {
+    div {
+      text-align: right;
       padding: 20px;
-      width: 100%;
+      a {
+        font-size: 2rem;
+        text-decoration: none;
+        color: #4dc2b7;
+        padding: 5px;
+        spam {
+          color: $bitcoin;
+        }
+        transition: all 2s ease;
+        @include mediaquery(768px) {
+          font-size: 1.2rem;
+        }
+        &:hover {
+          border: 2px solid black;
+          border-radius: 70%;
+          padding: 15px;
+          background: linear-gradient(
+            90deg,
+            hsl(36, 89%, 46%) 0%,
+            hsl(171, 85%, 44%) 70%
+          );
+          color: #032546;
+          transform: scale(1.1, 1.1);
+        }
+      }
     }
   }
-}
-.aside2-info {
-  font-family: "Playfair Display";
-  background: linear-gradient($color-fondo);
-  color: $color-letra;
-  padding: 10px;
-  text-align: center;
-  width: 100%;
-  height: auto;
-  h3 {
+  .aside-info {
+    font-family: "Playfair Display", serif;
+    background: linear-gradient($color-fondo);
+    padding: 10px;
+    .aside-contenido {
+      padding: 20px;
+      color: white;
+      text-decoration: underline;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .video {
+        padding: 20px;
+        width: 100%;
+      }
+    }
+  }
+  .aside2-info {
+    font-family: "Playfair Display";
+    background: linear-gradient($color-fondo);
+    color: $color-letra;
+    padding: 10px;
     text-align: center;
-    text-decoration: underline;
-  }
-  .grid-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
-    padding-left: 200px;
-    grid-template-areas: "caja1 caja2" "caja3 caja4" "caja5 caja6";
-    justify-content: center;
-    align-items: center;
-    @include mediaquery(768px) {
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas: "caja1" "caja2" "caja3" "caja4" "caja5" "caja6";
+    width: 100%;
+    height: auto;
+    h3 {
+      text-align: center;
+      text-decoration: underline;
     }
-    .caja1 {
-      grid-area: caja1;
-      padding: 3px;
-      border: 2px black solid;
-      background-color: #dedede;
-      color: #032546;
-      transition: all 1s ease;
-      &:hover {
-        transform: scale(1.5, 1.5);
+    .grid-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 20px;
+      padding-left: 200px;
+      grid-template-areas: "caja1 caja2" "caja3 caja4" "caja5 caja6";
+      justify-content: center;
+      align-items: center;
+      @include mediaquery(768px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "caja1" "caja2" "caja3" "caja4" "caja5" "caja6";
       }
-    }
-    .caja2 {
-      border: 2px black solid;
-      grid-area: caja2;
-      padding: 3px;
-      background-color: #dedede;
-      color: #032546;
-      transition: all 1s ease;
-      &:hover {
-        transform: scale(1.5, 1.5);
+      .caja1 {
+        grid-area: caja1;
+        padding: 3px;
+        border: 2px black solid;
+        background-color: #dedede;
+        color: #032546;
+        transition: all 1s ease;
+        &:hover {
+          transform: scale(1.5, 1.5);
+        }
       }
-    }
-    .caja3 {
-      border: 2px black solid;
-      grid-area: caja3;
-      padding: 3px;
-      background-color: #dedede;
-      color: #032546;
-      transition: all 1s ease;
-      &:hover {
-        transform: scale(1.5, 1.5);
+      .caja2 {
+        border: 2px black solid;
+        grid-area: caja2;
+        padding: 3px;
+        background-color: #dedede;
+        color: #032546;
+        transition: all 1s ease;
+        &:hover {
+          transform: scale(1.5, 1.5);
+        }
       }
-    }
-    .caja4 {
-      border: 2px black solid;
-      grid-area: caja4;
-      padding: 3px;
-      background-color: #dedede;
-      color: #032546;
-      transition: all 1s ease;
-      &:hover {
-        transform: scale(1.5, 1.5);
+      .caja3 {
+        border: 2px black solid;
+        grid-area: caja3;
+        padding: 3px;
+        background-color: #dedede;
+        color: #032546;
+        transition: all 1s ease;
+        &:hover {
+          transform: scale(1.5, 1.5);
+        }
       }
-    }
-    .caja5 {
-      border: 2px black solid;
-      grid-area: caja5;
-      padding: 3px;
-      background-color: #dedede;
-      color: #032546;
-      transition: all 1s ease;
-      &:hover {
-        transform: scale(1.5, 1.5);
+      .caja4 {
+        border: 2px black solid;
+        grid-area: caja4;
+        padding: 3px;
+        background-color: #dedede;
+        color: #032546;
+        transition: all 1s ease;
+        &:hover {
+          transform: scale(1.5, 1.5);
+        }
       }
-    }
-    .caja6 {
-      border: 2px black solid;
-      grid-area: caja6;
-      padding: 3px;
-      background-color: #dedede;
-      color: #032546;
-      transition: all 1s ease;
-      &:hover {
-        transform: scale(1.5, 1.5);
+      .caja5 {
+        border: 2px black solid;
+        grid-area: caja5;
+        padding: 3px;
+        background-color: #dedede;
+        color: #032546;
+        transition: all 1s ease;
+        &:hover {
+          transform: scale(1.5, 1.5);
+        }
+      }
+      .caja6 {
+        border: 2px black solid;
+        grid-area: caja6;
+        padding: 3px;
+        background-color: #dedede;
+        color: #032546;
+        transition: all 1s ease;
+        &:hover {
+          transform: scale(1.5, 1.5);
+        }
       }
     }
   }

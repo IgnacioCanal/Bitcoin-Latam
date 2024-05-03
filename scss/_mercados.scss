@@ -20,6 +20,34 @@
     bottom: 50px;
     right: 30px;
   }
+  .mod {
+    .dialog {
+      .conten {
+        .modheader {
+          h2 {
+            text-decoration: underline;
+            color: hsl(0, 0%, 0%);
+            font-size: 2rem;
+          }
+        }
+        .modbody {
+          p {
+            color: $color-letra;
+            spam {
+              color: black;
+              text-decoration: underline;
+            }
+          }
+        }
+        .modfooter {
+          .pie {
+            text-align: center;
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
   .main-mercado {
     background: linear-gradient($color-fondo);
     color: #4dc2b7;
