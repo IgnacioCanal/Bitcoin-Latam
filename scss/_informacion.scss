@@ -51,7 +51,6 @@ body {
   .main-info {
     font-family: "Playfair Display", serif;
     background: linear-gradient($color-fondo);
-
     h2 {
       text-align: center;
       text-decoration: underline;
@@ -60,7 +59,7 @@ body {
     article {
       font-size: 1.3rem;
       line-height: 1.5;
-      padding: 5px;
+      padding: 0 50px 10px 50px;
       color: white;
       text-align: center;
       spam {
@@ -69,7 +68,7 @@ body {
     }
     div {
       text-align: right;
-      padding: 20px;
+      padding: 50px;
       a {
         font-size: 2rem;
         text-decoration: none;
