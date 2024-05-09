@@ -44,13 +44,13 @@ body .header .menuo {
     padding: 5px;
   }
 }
-body .header .menuo img {
-  width: 50px;
-  height: 50px;
-  padding: 5px;
+body .header .menuo .img-btc {
+  width: 65px;
+  height: 65px;
+  padding: 10px;
 }
 body .header .tutorialeso {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #4dc2b7;
   text-transform: uppercase;
   text-decoration: underline;
@@ -349,16 +349,16 @@ body .main-info {
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
 }
 body .main-info h2 {
+  color: rgb(255, 165, 0);
   text-align: center;
   text-decoration: underline;
-  color: #dedede;
 }
 body .main-info article {
   font-size: 1.3rem;
   line-height: 1.5;
   padding: 0 50px 10px 50px;
   color: white;
-  text-align: center;
+  text-align: left;
 }
 body .main-info article spam {
   color: rgb(255, 165, 0);
@@ -366,6 +366,11 @@ body .main-info article spam {
 body .main-info div {
   text-align: right;
   padding: 50px;
+}
+@media screen and (max-width: 900px) {
+  body .main-info div {
+    text-align: center;
+  }
 }
 body .main-info div a {
   font-size: 2rem;
@@ -377,7 +382,7 @@ body .main-info div a {
 body .main-info div a spam {
   color: rgb(255, 165, 0);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   body .main-info div a {
     font-size: 1.2rem;
   }
@@ -416,22 +421,23 @@ body .aside2-info {
   text-align: center;
   width: 100%;
   height: auto;
+  padding: 0px 120px 100px 0px;
 }
 body .aside2-info h3 {
   text-align: center;
   text-decoration: underline;
+  padding: 10px;
 }
 body .aside2-info .grid-info {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 20px;
-  padding-left: 200px;
   grid-template-areas: "caja1 caja2" "caja3 caja4" "caja5 caja6";
-  justify-content: center;
+  justify-items: center;
   align-items: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
   body .aside2-info .grid-info {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -445,9 +451,12 @@ body .aside2-info .grid-info .caja1 {
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
+  font-size: 0.5rem;
+  width: 250px;
+  height: 250px;
 }
 body .aside2-info .grid-info .caja1:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(2, 2);
 }
 body .aside2-info .grid-info .caja2 {
   border: 2px black solid;
@@ -456,31 +465,42 @@ body .aside2-info .grid-info .caja2 {
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
+  font-size: 0.5rem;
+  width: 250px;
+  height: 250px;
 }
 body .aside2-info .grid-info .caja2:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(2, 2);
 }
 body .aside2-info .grid-info .caja3 {
   border: 2px black solid;
   grid-area: caja3;
+  justify-self: end;
   padding: 3px;
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
+  font-size: 0.5rem;
+  width: 250px;
+  height: 250px;
 }
 body .aside2-info .grid-info .caja3:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(2, 2);
 }
 body .aside2-info .grid-info .caja4 {
   border: 2px black solid;
   grid-area: caja4;
+  justify-self: start;
   padding: 3px;
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
+  font-size: 0.5rem;
+  width: 250px;
+  height: 250px;
 }
 body .aside2-info .grid-info .caja4:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(2, 2);
 }
 body .aside2-info .grid-info .caja5 {
   border: 2px black solid;
@@ -489,9 +509,12 @@ body .aside2-info .grid-info .caja5 {
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
+  font-size: 0.5rem;
+  width: 250px;
+  height: 250px;
 }
 body .aside2-info .grid-info .caja5:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(2, 2);
 }
 body .aside2-info .grid-info .caja6 {
   border: 2px black solid;
@@ -500,9 +523,12 @@ body .aside2-info .grid-info .caja6 {
   background-color: #dedede;
   color: #032546;
   transition: all 1s ease;
+  font-size: 0.5rem;
+  width: 250px;
+  height: 250px;
 }
 body .aside2-info .grid-info .caja6:hover {
-  transform: scale(1.5, 1.5);
+  transform: scale(2, 2);
 }
 
 .contenido-mercado {
