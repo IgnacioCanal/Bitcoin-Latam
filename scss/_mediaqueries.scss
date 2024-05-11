@@ -1,0 +1,165 @@
+@media only screen and (max-width: 1100px) {
+  .menuo {
+    top: 0;
+    padding: 5px;
+
+    .tutorialeso {
+      font-size: 2rem;
+    }
+    label {
+      display: initial;
+    }
+    .navbaro {
+      ul {
+        li {
+          width: 100%;
+        }
+      }
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: linear-gradient($color-fondo);
+      display: none;
+    }
+    #menuo {
+      &:checked ~ .navbaro {
+        display: initial;
+      }
+    }
+  }
+  .main {
+    .contenedor-main {
+      .imagen-central {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .aside {
+    .noticias {
+      div {
+        img {
+          width: 50%;
+          height: auto;
+        }
+      }
+    }
+  }
+  .footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    h2 {
+      a {
+        font-size: 1rem;
+      }
+    }
+    .enlaces {
+      ul {
+        li {
+          a {
+            font-size: 0.6rem;
+          }
+        }
+        font-size: 0.6rem;
+      }
+    }
+    .redes {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .main-info {
+    div {
+      a {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .aside-info {
+    .aside-contenido {
+      .video {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 970px) {
+  .main-info {
+    article {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .aside2-info {
+    .grid-info {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+        "caja1 caja2"
+        "caja3 caja4"
+        "caja5 caja6";
+    }
+  }
+  .aside-mercado {
+    div {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .aside {
+    .noticias {
+      div {
+        flex-direction: column;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+  .aside2-info {
+    .grid-info {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: "caja1" "caja2" "caja3" "caja4" "caja5" "caja6";
+    }
+  }
+  .contenido-mercado {
+    .main-mercado {
+      .accordion {
+        .accordion-item {
+          .accordion-collapse {
+            .accordion-body {
+              section {
+                img {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  .menuo {
+    .tutorialeso {
+      font-size: 1rem;
+    }
+  }
+  .main-info {
+    div {
+      a {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

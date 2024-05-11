@@ -1,0 +1,19 @@
+.aside-enlaces2 {
+  font-family: "Playfair Display", serif;
+  background: linear-gradient($color-fondo);
+  color: #4dc2b7;
+  text-align: center;
+  padding: 30px;
+  h4 {
+    text-decoration: underline;
+  }
+  .imagen-final {
+    img {
+      width: 800px;
+      padding-bottom: 20px;
+    }
+  }
+  article {
+    font-size: 1rem;
+  }
+}

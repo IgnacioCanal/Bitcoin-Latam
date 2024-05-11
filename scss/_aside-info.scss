@@ -1,0 +1,208 @@
+.aside-info {
+  padding: 10px;
+  .aside-contenido {
+    padding: 20px;
+    color: $color-letra;
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .video {
+      padding: 20px;
+    }
+  }
+}
+.aside2-info {
+  color: $color-letra;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+  }
+  .grid-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    grid-template-areas: "caja1 caja2 caja3" "caja4 caja5 caja6";
+    justify-items: center;
+    align-items: center;
+    .caja1 {
+      grid-area: caja1;
+      padding: 5px;
+      border: 2px black solid;
+      background-image: url(../assets/img/cripto-wallet2.jpg);
+      background-size: cover;
+      color: black;
+      width: 300px;
+      height: 250px;
+      transition: all 1s ease;
+      &:hover {
+        box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
+        transform: translate(0px, -10px);
+        border-radius: 10px;
+      }
+      h4 {
+        font-size: 1rem;
+        text-decoration: underline;
+      }
+      article {
+        p {
+          font-size: 0.8rem;
+          padding: 5px;
+          font-weight: bold;
+        }
+      }
+    }
+    .caja2 {
+      border: 2px black solid;
+      grid-area: caja2;
+      padding: 3px;
+      background-color: #2fbcae;
+      background-image: url(../assets/img/pago-btc.jpg);
+      background-repeat: no-repeat;
+      background-size: 100px;
+      background-position: bottom right;
+      color: black;
+      width: 300px;
+      height: 250px;
+      transition: all 1s ease;
+      &:hover {
+        box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
+        transform: translate(0px, -10px);
+        border-radius: 10px;
+      }
+      h4 {
+        font-size: 1rem;
+        text-decoration: underline;
+      }
+      article {
+        p {
+          font-size: 0.8rem;
+          padding: 2px;
+          font-weight: bold;
+        }
+      }
+    }
+    .caja3 {
+      border: 2px black solid;
+      grid-area: caja3;
+      padding: 3px;
+      background-color: #2fbcae;
+      background-image: url(../assets/img/seguridad-btc2.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: bottom center;
+      color: black;
+      font-size: 0.5rem;
+      width: 300px;
+      height: 250px;
+      transition: all 1s ease;
+      &:hover {
+        box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
+        transform: translate(0px, -10px);
+        border-radius: 10px;
+      }
+      h4 {
+        font-size: 1rem;
+        text-decoration: underline;
+      }
+      article {
+        p {
+          font-size: 0.8rem;
+          padding: 5px;
+          font-weight: bold;
+        }
+      }
+    }
+    .caja4 {
+      border: 2px black solid;
+      grid-area: caja4;
+      padding: 3px;
+      background-color: black;
+      background-image: url(../assets/img/btc-inter.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      color: white;
+      font-size: 0.5rem;
+      width: 300px;
+      height: 250px;
+      transition: all 1s ease;
+      &:hover {
+        box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
+        transform: translate(0px, -10px);
+        border-radius: 10px;
+      }
+      h4 {
+        font-size: 1rem;
+        text-decoration: underline;
+      }
+      article {
+        p {
+          font-size: 0.6rem;
+          padding: 5px;
+          font-weight: bold;
+        }
+      }
+    }
+    .caja5 {
+      border: 2px black solid;
+      grid-area: caja5;
+      padding: 3px;
+      background-color: #2fbcae;
+      color: black;
+      width: 300px;
+      height: 250px;
+      transition: all 1s ease;
+      &:hover {
+        box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
+        transform: translate(0px, -10px);
+        border-radius: 10px;
+      }
+      h4 {
+        font-size: 1rem;
+        text-decoration: underline;
+      }
+      article {
+        p {
+          font-size: 0.8rem;
+          padding: 5px;
+          font-weight: bold;
+        }
+      }
+    }
+    .caja6 {
+      border: 2px black solid;
+      grid-area: caja6;
+      padding: 3px;
+      background-color: black;
+      color: white;
+      width: 300px;
+      height: 250px;
+      transition: all 1s ease;
+      &:hover {
+        box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
+        transform: translate(0px, -10px);
+        border-radius: 10px;
+      }
+      h4 {
+        font-size: 1rem;
+        text-decoration: underline;
+      }
+      article {
+        p {
+          font-size: 0.8rem;
+          padding: 5px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

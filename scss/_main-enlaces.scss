@@ -1,0 +1,40 @@
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "main aside";
+  justify-items: center;
+  .main-enlaces {
+    grid-area: main;
+    .formulario {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: left;
+      color: #4dc2b7;
+      padding: 10px;
+      article {
+        font-size: 1rem;
+        padding: 5px;
+        color: $color-letra;
+      }
+      .formulario-interno {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+    }
+  }
+  .aside-enlaces {
+    grid-area: aside;
+    color: #4dc2b7;
+    text-align: left;
+    padding: 20px;
+    article {
+      padding: 5px;
+      a {
+        color: $color-letra;
+      }
+    }
+  }
+}

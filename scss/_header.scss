@@ -1,0 +1,76 @@
+.header {
+  font-family: "Playfair Display", serif;
+  width: 100%;
+  padding: 10px;
+  height: 100px;
+  background: linear-gradient($color-fondo);
+  color: $color-letra;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  .containero {
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 80px;
+    background: linear-gradient($color-fondo);
+  }
+  .menuo {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    .img-btc {
+      width: 65px;
+      height: 65px;
+      padding: 10px;
+    }
+  }
+  .tutorialeso {
+    padding: 10px;
+    font-size: 2.5rem;
+    color: #4dc2b7;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  label {
+    cursor: pointer;
+    display: none;
+    border: 2px solid black;
+  }
+  .menu-iconoo {
+    width: 50px;
+    height: 50px;
+  }
+  .navbaro {
+    ul {
+      li {
+        position: relative;
+        float: left;
+        a {
+          font-size: 18px;
+          padding: 20px;
+          color: $color-letra;
+          display: block;
+          font-weight: bold;
+          text-decoration: none;
+          transition: all 0.5s ease;
+          &:hover {
+            color: #ffffff;
+            border: 3px solid #032546;
+            transform: scale(1.1, 1.1);
+          }
+        }
+      }
+    }
+  }
+}
+#menuo {
+  display: none;
+}

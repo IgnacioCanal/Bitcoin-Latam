@@ -8,19 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="../assets/img/favicon.ico" />
     <link rel="stylesheet" href="../css/styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="icon" href="../assets/img/favicon.ico" />
     <title>Bitcoin Latam | Tutoriales</title>
   </head>
   <body>
@@ -49,149 +41,27 @@
             <li >
               <a  href="./enlaces.html">Enlaces</a>
             </li>
+            </ul>
           </nav>
         </div>
       </div>
     </header>
-    <button type="button" class="boton btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Donaciones</button>
-        <div class="mod modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="dialog modal-dialog">
-            <div class="conten modal-content">
-              <div class="modheader modal-header">
-                <h2 class="titulo modal-title fs-5" id="exampleModalLabel">Dirección de Bitcoin y Usdt</h2>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modbody modal-body">
-                <p><spam>BITCOIN:</spam> 1DK86zZrunJwUoNjAv2zRimxLv9XmGbiTX</p>
-                <p><spam>USDT ERC20:</spam> 0x0e15c4704262cf0ef5555562b35a4f84349a043d</p>
-              </div>
-              <div class="modfooter modal-footer">
-                <article class="pie">- Gracias por su ayuda -</article>
-              </div>
-            </div>
-          </div>
-        </div>
     <main class="tutoriales">
       <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button
-            class="nav-link active"
-            id="nav-argentina-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-argentina"
-            type="button"
-            role="tab"
-            aria-controls="nav-argentina"
-            aria-selected="true"
-          >
-            Argentina
-          </button>
-          <button
-            class="nav-link"
-            id="nav-brasil-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-brasil"
-            type="button"
-            role="tab"
-            aria-controls="nav-brasil"
-            aria-selected="false"
-          >
-            Brasil
-          </button>
-          <button
-            class="nav-link"
-            id="nav-uruguay-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-uruguay"
-            type="button"
-            role="tab"
-            aria-controls="nav-uruguay"
-            aria-selected="false"
-          >
-            Uruguay
-          </button>
-          <button
-            class="nav-link"
-            id="nav-disabled-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-paraguay"
-            type="button"
-            role="tab"
-            aria-controls="nav-paraguay"
-            aria-selected="false"
-          >
-            Paraguay
-          </button>
-          <button
-            class="nav-link"
-            id="nav-chile-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-chile"
-            type="button"
-            role="tab"
-            aria-controls="nav-chile"
-            aria-selected="false"
-          >
-            Chile
-          </button>
-          <button
-            class="nav-link"
-            id="nav-colombia-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-colombia"
-            type="button"
-            role="tab"
-            aria-controls="nav-colombia"
-            aria-selected="false"
-          >
-            Colombia
-          </button>
-          <button
-            class="nav-link"
-            id="nav-peru-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-peru"
-            type="button"
-            role="tab"
-            aria-controls="nav-peru"
-            aria-selected="false"
-          >
-            Perú
-          </button>
-          <button
-            class="nav-link"
-            id="nav-bolivia-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-bolivia"
-            type="button"
-            role="tab"
-            aria-controls="nav-bolivia"
-            aria-selected="false"
-          >
-            Bolivia
-          </button>
-          <button
-            class="nav-link"
-            id="nav-mexico-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-mexico"
-            type="button"
-            role="tab"
-            aria-controls="nav-mexico"
-            aria-selected="false"
-          >
-            Mexico
-          </button>
+          <button class="nav-link active" id="nav-argentina-tab" data-bs-toggle="tab" data-bs-target="#nav-argentina" type="button" role="tab" aria-controls="nav-argentina" aria-selected="true">Argentina</button>
+          <button class="nav-link" id="nav-brasil-tab" data-bs-toggle="tab" data-bs-target="#nav-brasil" type="button" role="tab" aria-controls="nav-brasil" aria-selected="false" >Brasil</button>
+          <button class="nav-link" id="nav-uruguay-tab" data-bs-toggle="tab" data-bs-target="#nav-uruguay" type="button" role="tab" aria-controls="nav-uruguay" aria-selected="false" >Uruguay</button>
+          <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-paraguay" type="button" role="tab" aria-controls="nav-paraguay" aria-selected="false" >Paraguay</button>
+          <button class="nav-link" id="nav-chile-tab" data-bs-toggle="tab" data-bs-target="#nav-chile" type="button" role="tab" aria-controls="nav-chile" aria-selected="false" >Chile</button>
+          <button class="nav-link" id="nav-colombia-tab" data-bs-toggle="tab" data-bs-target="#nav-colombia" type="button" role="tab" aria-controls="nav-colombia" aria-selected="false" >Colombia</button>
+          <button class="nav-link" id="nav-peru-tab" data-bs-toggle="tab" data-bs-target="#nav-peru" type="button" role="tab" aria-controls="nav-peru" aria-selected="false" >Perú</button>
+          <button class="nav-link" id="nav-bolivia-tab" data-bs-toggle="tab" data-bs-target="#nav-bolivia" type="button" role="tab" aria-controls="nav-bolivia" aria-selected="false" >Bolivia</button>
+          <button class="nav-link" id="nav-mexico-tab" data-bs-toggle="tab" data-bs-target="#nav-mexico" type="button" role="tab" aria-controls="nav-mexico" aria-selected="false" >Mexico</button>
         </div>
       </nav>
       <div class="tab-content" id="nav-tabContent">
-        <div
-          class="tab-pane fade show active"
-          id="nav-argentina"
-          role="tabpanel"
-          aria-labelledby="nav-argentina-tab"
-          tabindex="0"
-        >
+        <div class="tab-pane fade show active" id="nav-argentina" role="tabpanel" aria-labelledby="nav-argentina-tab" tabindex="0" >
           <div class="container-fluid">
             <div class="row p3">
               <div class="col-12">
@@ -201,135 +71,48 @@
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
                 <h2>¿Cómo crear tu cuenta en Binance?</h2>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/JfXlbgXhmis?si=bPJBU-aHuTvOv5eR"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/JfXlbgXhmis?si=bPJBU-aHuTvOv5eR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en Quantfury?</h2>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/1Z3xUEl2RKo?si=i4T5fUBR1N-evjPx"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <h2><a href="https://www.youtube.com/embed/1Z3xUEl2RKo?si=i4T5fUBR1N-evjPx" target="_blank">¿Cómo crear tu cuenta en Quantfury?</a></h2>
+                <p>Aquí encontrarás un tutorial completo para crear tu cuenta en Quantfury por uno de los referentes del mundo de las Criptomonedas</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
                 <h2>¿Cómo crear tu cuenta en Ledn?</h2>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/CWF2zJGVieg?si=LhWDaEBeMRPXKXE9"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/CWF2zJGVieg?si=LhWDaEBeMRPXKXE9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en OKX?</h2>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/FNRH8oyP-Uk?si=22W_mKsu7f0Q9vPk"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <h2><a href="https://www.youtube.com/embed/FNRH8oyP-Uk?si=22W_mKsu7f0Q9vPk" target="_blank">¿Cómo crear tu cuenta en OKX?</a></h2>
+                <p>En este enlace encontrarás el paso a paso para poder crear tu cuenta en OKX</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en TradingView?</h2>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/cdCEWoqOV7c?si=ggUd5VQMHdREcoMj"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <h2><a href="https://www.youtube.com/embed/cdCEWoqOV7c?si=ggUd5VQMHdREcoMj" target="_blank">¿Cómo crear tu cuenta en TradingView?</a></h2>
+                <p>Acá encontrarás la mejor plataforma para seguir los precios en vivo de todas las criptomonedas, acciones, mercados y demás. Con las mejores herramientas y todo lo necesario para graficar.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo empezar con Criptomonedas?</h2>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/yvHVVj0Sghg?si=GowZnJjjGHQ3QKO7"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <h2><a href="https://www.youtube.com/embed/yvHVVj0Sghg?si=GowZnJjjGHQ3QKO7" target="_blank">¿Cómo empezar con Criptomonedas?</a></h2>
+                <p>Tutorial completo sobre el mundo de las criptomonedas, como empezar a invertir desde 0, de que se trata todo este ecosistema cripto y los distintos mercados existentes.</p>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo Comprar Criptomonedas en Argentina?</h2>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/RL-CJ1VcRdo?si=q4ero0GIQfywehhd"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <h2><a href="https://www.youtube.com/embed/RL-CJ1VcRdo?si=q4ero0GIQfywehhd" target="_blank">¿Cómo Comprar Criptomonedas en Argentina?</a></h2>
+                <p>Tutorial completo para empezar a invertir desde tu país</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Quantfury?</h2>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/IwkJuYyXVPM?si=08DT1zVMux1vUflv"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <h2><a href="https://www.youtube.com/embed/IwkJuYyXVPM?si=08DT1zVMux1vUflv" target="_blank">¿Cómo utilizar Quantfury?</a></h2>
+                <p>Aquí podrás encontrar toda la información necesaria para empezar a utilizar Quantfury, la mejor plataforma para hacer trading de criptomoedas y acciones.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Ledn?</h2>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/OOCV186taF4?si=GWZ_J3UFfUxSdTu6"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <h2><a href="https://www.youtube.com/embed/OOCV186taF4?si=GWZ_J3UFfUxSdTu6" target="_blank">¿Cómo utilizar Ledn?</a></h2>
+                <p>Aprende todo sobre Ledn, una de las plataformas más confiables para depositar y generar rendimientos con tus Bitcoins y tus dolares digitales.</p>
               </div>
             </div>
           </div>
         </div>
-        <div
-          class="tab-pane fade"
-          id="nav-brasil"
-          role="tabpanel"
-          aria-labelledby="nav-brasil-tab"
-          tabindex="0"
-        >
+        <div class="tab-pane fade" id="nav-brasil" role="tabpanel" aria-labelledby="nav-brasil-tab" tabindex="0" >
          <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
@@ -342,52 +125,46 @@
                     <iframe width="100%" height="auto" src="https://www.youtube.com/embed/f6CVzhKF4E4?si=UKGPXlkiZocR3CU1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                   </div>
                    <div class="col-lg-4 col-md-12 p-3 border">
-                     <h2>Como criar a conta no Quantfury?</h2>
-                     <iframe width="100%" height="auto" src="https://www.youtube.com/embed/t7jlfiGQa3A?si=1K-Ak_aUoKcUV0pd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                     <h2><a href="https://www.youtube.com/embed/t7jlfiGQa3A?si=1K-Ak_aUoKcUV0pd" target="_blank">Como criar a conta no Quantfury?</a></h2>
+                      <p>Aqui você encontrará um tutorial completo para criar sua conta no Quantfury por uma das referências no mundo das Criptomoedas</p>
                     </div>
                   <div class="col-lg-4 col-md-12 p-3 border">
                       <h2>Como criar sua conta no Ledn?</h2>
-                      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/gbBP2JRJlbU?si=y9FDoAAIv4vculG5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/gbBP2JRJlbU?si=E0Uduy3xKxKGG0si" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                    </div>
                 </div.row>
               </div>
              <div class="row">
                   <div class="col-lg-4 col-md-12 p-3 border">
-                      <h2>Como criar sua conta na OKX?</h2>
-                      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/5YtDE_5sr-4?si=H8xgvzhwOFStR5NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>        
+                      <h2><a href="https://www.youtube.com/embed/5YtDE_5sr-4?si=H8xgvzhwOFStR5NA" target="_blank">Como criar sua conta na OKX?</a></h2>
+                      <p>Neste link você encontrará o passo a passo para criar sua conta na OKX</p>
                   </div>
                   <div class="col-lg-4 col-md-12 p-3 border">
-                      <h2>Como criar sua conta no TradingView?</h2>
-                      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/MNrhNdT0xxo?si=LRGaALbkJ-jMKn1T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <h2><a href="https://www.youtube.com/embed/MNrhNdT0xxo?si=LRGaALbkJ-jMKn1T" target="_blank">Como criar sua conta no TradingView?</a></h2>
+                      <p>Aqui você encontrará a melhor plataforma para acompanhar os preços ao vivo de todas as criptomoedas, ações, mercados e muito mais. Com as melhores ferramentas e tudo que você precisa para fazer gráficos.</p>
                   </div>
                   <div class="col-lg-4 col-md-12 p-3 border">
-                      <h2>Como começar com criptomoedas?</h2>
-                      <iframe width="100%" height="auto" src="https://www.youtube.com/embed/FlTVEhHXVJ8?si=thSkUWnHkFmMBGdH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                      <h2><a href="https://www.youtube.com/embed/FlTVEhHXVJ8?si=thSkUWnHkFmMBGdH" target="_blank">Como começar com criptomoedas?</a></h2>
+                      <p>Tutorial completo sobre o mundo das criptomoedas, como começar a investir do zero, do que se trata todo esse ecossistema criptográfico e os diferentes mercados existentes.</p>
                     </div>
              </div>
             <div class="row">
                   <div class="col-lg-4 col-md-12 p-3 border">
-                           <h2>Como Comprar Criptomoedas no Brasil?</h2>
-                       <iframe width="100%" height="auto" src="https://www.youtube.com/embed/j-BsZD3J6Vk?si=DVLdGo86zQAViunh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                           <h2><a href="https://www.youtube.com/embed/j-BsZD3J6Vk?si=DVLdGo86zQAViunh" target="_blank">Como Comprar Criptomoedas no Brasil?</a></h2>
+                           <p>Tutorial completo para começar a investir no seu país</p>
                     </div>
                    <div class="col-lg-4 col-md-12 p-3 border">
-                          <h2>Como usar o Quantfury?</h2>
-                           <iframe width="100%" height="auto" src="https://www.youtube.com/embed/_f49vJYdGHE?si=3wkMbx_GDBm4DKeh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          <h2><a href="https://www.youtube.com/embed/_f49vJYdGHE?si=3wkMbx_GDBm4DKeh" target="_blank">Como usar o Quantfury?</a></h2>
+                          <p>Aqui você encontra todas as informações necessárias para começar a usar o Quantfury, a melhor plataforma para negociação de criptomoedas e ações.</p>
                       </div>
                   <div class="col-lg-4 col-md-12 p-3 border">
-                          <h2>Como usar o Binance?</h2>
-                           <iframe width="100%" height="auto" src="https://www.youtube.com/embed/cme3T3CREsM?si=wrfD7w5BgAtZ3Xwb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                          <h2><a href="https://www.youtube.com/embed/cme3T3CREsM?si=wrfD7w5BgAtZ3Xwb" target="_blank">Como usar o Binance?</a></h2>
+                          <p>Saiba tudo sobre Ledn, uma das plataformas mais confiáveis ​​para depositar e gerar retorno com seus Bitcoins e seus dólares digitais</p>
                   </div>
              </div>
         </div>
         </div>
-        <div
-          class="tab-pane fade"
-          id="nav-uruguay"
-          role="tabpanel"
-          aria-labelledby="nav-uruguay-tab"
-          tabindex="0"
-        >
+        <div class="tab-pane fade" id="nav-uruguay" role="tabpanel" aria-labelledby="nav-uruguay-tab" tabindex="0" >
           <div class="container-fluid">
             <div class="row">
               <div class="col-12">
@@ -400,8 +177,8 @@
                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/XLx1Sh1g4-s?si=92I9yRD7442nb06Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Y6bFl8PQ_5w?si=n1ZrZNuOw6OjIU_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/Y6bFl8PQ_5w?si=n1ZrZNuOw6OjIU_g" target="_blank">¿Cómo crear tu cuenta en Quantfury?</a></h2>
+                <p>Aquí encontrarás un tutorial completo para crear tu cuenta en Quantfury por uno de los referentes del mundo de las Criptomonedas</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
                 <h2>¿Cómo crear tu cuenta en Ledn?</h2>
@@ -410,42 +187,35 @@
             </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en OKX?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/T4wWBTtuKpg?si=M44u7QH3w-Xn9q_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/T4wWBTtuKpg?si=M44u7QH3w-Xn9q_0" target="_blank">¿Cómo crear tu cuenta en OKX?</a></h2>
+                <p>En este enlace encontrarás el paso a paso para poder crear tu cuenta en OKX</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en TradingView?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/njM5ElkD3Tc?si=FS-orPBZCbXVJLSy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/njM5ElkD3Tc?si=FS-orPBZCbXVJLSy" target="_blank">¿Cómo crear tu cuenta en TradingView?</a></h2>
+                <p>Acá encontrarás la mejor plataforma para seguir los precios en vivo de todas las criptomonedas, acciones, mercados y demás. Con las mejores herramientas y todo lo necesario para graficar.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo empezar con Criptomonedas?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/oQRqJzYi_yE?si=j5XagzKNMd-NDdy9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/oQRqJzYi_yE?si=j5XagzKNMd-NDdy9" target="_blank">¿Cómo empezar con Criptomonedas?</a></h2>
+                <p>Tutorial completo sobre el mundo de las criptomonedas, como empezar a invertir desde 0, de que se trata todo este ecosistema cripto y los distintos mercados existentes.</p>
             </div>
           </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo Comprar Criptomonedas en Uruguay?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/2PiLSOegHyw?si=zlSoqS2fFgxU5owb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/2PiLSOegHyw?si=zlSoqS2fFgxU5owb" target="_blank">¿Cómo Comprar Criptomonedas en Uruguay?</a></h2>
+                <p>Tutorial completo para empezar a invertir desde tu país</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/xYsZxbI5IDs?si=gUQ4iUjzqiLZ_H5b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/xYsZxbI5IDs?si=gUQ4iUjzqiLZ_H5b" target="_blank">¿Cómo utilizar Quantfury?</a></h2>
+                <p>Aquí podrás encontrar toda la información necesaria para empezar a utilizar Quantfury, la mejor plataforma para hacer trading de criptomoedas y acciones.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Ledn?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/FRl68acYpXc?si=bbLMxUUQKT2cihCY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/FRl68acYpXc?si=bbLMxUUQKT2cihCY" target="_blank">¿Cómo utilizar Ledn?</a></h2>
+                <p>Aprende todo sobre Ledn, una de las plataformas más confiables para depositar y generar rendimientos con tus Bitcoins y tus dolares digitales.</p>
+              </div>
             </div>
-          
-        </div>
          </div>
          </div>
-        <div
-          class="tab-pane fade"
-          id="nav-paraguay"
-          role="tabpanel"
-          aria-labelledby="nav-paraguay-tab"
-          tabindex="0"
-        >
+        <div class="tab-pane fade" id="nav-paraguay" role="tabpanel" aria-labelledby="nav-paraguay-tab" tabindex="0" >
           <div class="container-fluid">
             <div class="row">
               <div class="col-12">
@@ -458,8 +228,8 @@
                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Jk_FlEBa2QY?si=qSzH9RqfD1WJLN5q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en Quantfury?</h2>
-                  <iframe width="100%" height="auto" src="https://www.youtube.com/embed/dFQzd57CSWY?si=cCgq1TFF7-PRr88b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+                <h2><a href="https://www.youtube.com/embed/dFQzd57CSWY?si=cCgq1TFF7-PRr88b" target="_blank">¿Cómo crear tu cuenta en Quantfury?</a></h2>
+                <p>Aquí encontrarás un tutorial completo para crear tu cuenta en Quantfury por uno de los referentes del mundo de las Criptomonedas</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
                 <h2>¿Cómo crear tu cuenta en Ledn?</h2>
@@ -468,51 +238,36 @@
             </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en OKX?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/wo34y58tax8?si=wQOOtRyNJRNAZ5hP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/wo34y58tax8?si=wQOOtRyNJRNAZ5hP" target="_blank">¿Cómo crear tu cuenta en OKX?</a></h2>
+                <p>En este enlace encontrarás el paso a paso para poder crear tu cuenta en OKX</p>
                </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en TradingView?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/njM5ElkD3Tc?si=FS-orPBZCbXVJLSy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/njM5ElkD3Tc?si=FS-orPBZCbXVJLSy" target="_blank">¿Cómo crear tu cuenta en TradingView?</a></h2>
+                <p>Acá encontrarás la mejor plataforma para seguir los precios en vivo de todas las criptomonedas, acciones, mercados y demás. Con las mejores herramientas y todo lo necesario para graficar.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo empezar con Criptomonedas?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/rEm0nFcrgMs?si=08Blug0EBpYOk-bS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/rEm0nFcrgMs?si=08Blug0EBpYOk-bS" target="_blank">¿Cómo empezar con Criptomonedas?</a></h2>
+                <p>Tutorial completo sobre el mundo de las criptomonedas, como empezar a invertir desde 0, de que se trata todo este ecosistema cripto y los distintos mercados existentes.</p>
               </div>
           </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo Comprar Criptomonedas en Paraguay?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/5LYqzfOIAgg?si=u4bR8X_6aUJLDZl9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/5LYqzfOIAgg?si=u4bR8X_6aUJLDZl9" target="_blank">¿Cómo Comprar Criptomonedas en Paraguay?</a></h2>
+                <p>Tutorial completo para empezar a invertir desde tu país</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/xYsZxbI5IDs?si=gUQ4iUjzqiLZ_H5b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/xYsZxbI5IDs?si=gUQ4iUjzqiLZ_H5b" target="_blank">¿Cómo utilizar Quantfury?</a></h2>
+                <p>Aquí podrás encontrar toda la información necesaria para empezar a utilizar Quantfury, la mejor plataforma para hacer trading de criptomoedas y acciones.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Ledn?</h2>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/OOCV186taF4?si=GWZ_J3UFfUxSdTu6"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <h2><a href="https://www.youtube.com/embed/OOCV186taF4?si=GWZ_J3UFfUxSdTu6" target="_blank">¿Cómo utilizar Ledn?</a></h2>
+                <p>Aprende todo sobre Ledn, una de las plataformas más confiables para depositar y generar rendimientos con tus Bitcoins y tus dolares digitales.</p>
               </div>
            </div>
           </div>
         </div>
-        <div
-          class="tab-pane fade"
-          id="nav-chile"
-          role="tabpanel"
-          aria-labelledby="nav-chile-tab"
-          tabindex="0"
-        >
-        <div class="container-fluid">
+        <div class="tab-pane fade" id="nav-chile" role="tabpanel" aria-labelledby="nav-chile-tab" tabindex="0" >
+          <div class="container-fluid">
             <div class="row">
               <div class="col-12">
                 <h2 class="p-3 text-center">Tutoriales para Chile</h2>
@@ -524,8 +279,8 @@
                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RcuCsitiSKk?si=UcsF3PlqrKRZIp0x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/BOOVUreriOs?si=X49fT-_g-LTic6E1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/BOOVUreriOs?si=X49fT-_g-LTic6E1" target="_blank">¿Cómo crear tu cuenta en Quantfury?</a></h2>
+                <p>Aquí encontrarás un tutorial completo para crear tu cuenta en Quantfury por uno de los referentes del mundo de las Criptomonedas</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
                 <h2>¿Cómo crear tu cuenta en Ledn?</h2>
@@ -534,41 +289,35 @@
             </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en OKX?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/wo34y58tax8?si=wQOOtRyNJRNAZ5hP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/wo34y58tax8?si=wQOOtRyNJRNAZ5hP" target="_blank">¿Cómo crear tu cuenta en OKX?</a></h2>
+                <p>En este enlace encontrarás el paso a paso para poder crear tu cuenta en OKX</p>
                </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en TradingView?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/njM5ElkD3Tc?si=FS-orPBZCbXVJLSy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/njM5ElkD3Tc?si=FS-orPBZCbXVJLSy" target="_blank">¿Cómo crear tu cuenta en TradingView?</a></h2>
+                <p>Acá encontrarás la mejor plataforma para seguir los precios en vivo de todas las criptomonedas, acciones, mercados y demás. Con las mejores herramientas y todo lo necesario para graficar.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo empezar con Criptomonedas?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/rEm0nFcrgMs?si=08Blug0EBpYOk-bS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/rEm0nFcrgMs?si=08Blug0EBpYOk-bS" target="_blank">¿Cómo empezar con Criptomonedas?</a></h2>
+                <p>Tutorial completo sobre el mundo de las criptomonedas, como empezar a invertir desde 0, de que se trata todo este ecosistema cripto y los distintos mercados existentes.</p>
               </div>
           </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo Comprar Criptomonedas en Chile?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/nvwK05sYoRI?si=yZi2XAEo2aj--xI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/nvwK05sYoRI?si=yZi2XAEo2aj--xI5" target="_blank">¿Cómo Comprar Criptomonedas en Chile?</a></h2>
+                <p>Tutorial completo para empezar a invertir desde tu país</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/weHuRHrx344?si=6GbPqBRGlHoFdj4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/weHuRHrx344?si=6GbPqBRGlHoFdj4c" target="_blank">¿Cómo utilizar Quantfury?</a></h2>
+                <p>Aquí podrás encontrar toda la información necesaria para empezar a utilizar Quantfury, la mejor plataforma para hacer trading de criptomoedas y acciones.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Ledn?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/FRl68acYpXc?si=rLevEE68aRVqQB_-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/FRl68acYpXc?si=rLevEE68aRVqQB_-" target="_blank">¿Cómo utilizar Ledn?</a></h2>
+                <p>Aprende todo sobre Ledn, una de las plataformas más confiables para depositar y generar rendimientos con tus Bitcoins y tus dolares digitales.</p>
               </div>
            </div>
           </div>
         </div>
-        <div
-          class="tab-pane fade"
-          id="nav-colombia"
-          role="tabpanel"
-          aria-labelledby="nav-colombia-tab"
-          tabindex="0"
-        >
+        <div class="tab-pane fade" id="nav-colombia" role="tabpanel" aria-labelledby="nav-colombia-tab" tabindex="0" >
           <div class="container-fluid">
             <div class="row">
               <div class="col-12">
@@ -581,8 +330,8 @@
                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/vAlJGTrQaro?si=Qhtvsc03X1ifkAUu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/_udAX6v451o?si=9ajML9keoa8S9Lz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/_udAX6v451o?si=9ajML9keoa8S9Lz4" target="_blank">¿Cómo crear tu cuenta en Quantfury?</a></h2>
+                <p>Aquí encontrarás un tutorial completo para crear tu cuenta en Quantfury por uno de los referentes del mundo de las Criptomonedas</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
                 <h2>¿Cómo crear tu cuenta en Ledn?</h2>
@@ -591,41 +340,35 @@
             </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en OKX?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ChzU4HZ8QQ8?si=hyRIsQRUvMjg4w20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/ChzU4HZ8QQ8?si=hyRIsQRUvMjg4w20" target="_blank">¿Cómo crear tu cuenta en OKX?</a></h2>
+                <p>En este enlace encontrarás el paso a paso para poder crear tu cuenta en OKX</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>Como crear tu cuenta en TradingView?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/cdCEWoqOV7c?si=MvOq__ASH_X5oct2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/cdCEWoqOV7c?si=MvOq__ASH_X5oct2" target="_blank">Como crear tu cuenta en TradingView?</a></h2>
+                <p>Acá encontrarás la mejor plataforma para seguir los precios en vivo de todas las criptomonedas, acciones, mercados y demás. Con las mejores herramientas y todo lo necesario para graficar.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo empezar con Criptomonedas?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/R2fkcCXWEsA?si=7W3m3m89vtzHUIvK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/R2fkcCXWEsA?si=7W3m3m89vtzHUIvK" target="_blank">¿Cómo empezar con Criptomonedas?</a></h2>
+                <p>Tutorial completo sobre el mundo de las criptomonedas, como empezar a invertir desde 0, de que se trata todo este ecosistema cripto y los distintos mercados existentes.</p>
               </div>
           </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo Comprar Criptomonedas en Colombia?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/dlaNnAWKIWY?si=mQShHUqCrMz7N73J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/dlaNnAWKIWY?si=mQShHUqCrMz7N73J" target="_blank">¿Cómo Comprar Criptomonedas en Colombia?</a></h2>
+                <p>Tutorial completo para empezar a invertir desde tu país</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/I5DMTJWiO6I?si=SVcm0KpIQEjm8c6J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/I5DMTJWiO6I?si=SVcm0KpIQEjm8c6J" target="_blank">¿Cómo utilizar Quantfury?</a></h2>
+                <p>Aquí podrás encontrar toda la información necesaria para empezar a utilizar Quantfury, la mejor plataforma para hacer trading de criptomoedas y acciones.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Ledn?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/La3O5yx7kjU?si=EH8ijOfLhOF4i-9-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/La3O5yx7kjU?si=EH8ijOfLhOF4i-9-" target="_blank">¿Cómo utilizar Ledn?</a></h2>
+                <p>Aprende todo sobre Ledn, una de las plataformas más confiables para depositar y generar rendimientos con tus Bitcoins y tus dolares digitales.</p>
               </div>
            </div>
           </div>
         </div>
-        <div
-          class="tab-pane fade"
-          id="nav-peru"
-          role="tabpanel"
-          aria-labelledby="nav-peru-tab"
-          tabindex="0"
-        >
+        <div class="tab-pane fade" id="nav-peru" role="tabpanel" aria-labelledby="nav-peru-tab" tabindex="0" >
           <div class="container-fluid">
             <div class="row">
               <div class="col-12">
@@ -638,8 +381,8 @@
                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/vAlJGTrQaro?si=Qhtvsc03X1ifkAUu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ejxBBQzwa88?si=5qPgAzY0YS1MawSR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/ejxBBQzwa88?si=5qPgAzY0YS1MawSR" target="_blank">¿Cómo crear tu cuenta en Quantfury?</a></h2>
+                <p>Aquí encontrarás un tutorial completo para crear tu cuenta en Quantfury por uno de los referentes del mundo de las Criptomonedas</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
                 <h2>¿Cómo crear tu cuenta en Ledn?</h2>
@@ -648,41 +391,35 @@
             </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en OKX?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ev92jMEXDeA?si=Nop2MHVdtiM67z_L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/ev92jMEXDeA?si=Nop2MHVdtiM67z_L" target="_blank">¿Cómo crear tu cuenta en OKX?</a></h2>
+                <p>En este enlace encontrarás el paso a paso para poder crear tu cuenta en OKX</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en TradingView?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/bEjtIkyYzbQ?si=YSERniXKSLHyGfBr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/bEjtIkyYzbQ?si=YSERniXKSLHyGfBr" target="_blank">¿Cómo crear tu cuenta en TradingView?</a></h2>
+                <p>Acá encontrarás la mejor plataforma para seguir los precios en vivo de todas las criptomonedas, acciones, mercados y demás. Con las mejores herramientas y todo lo necesario para graficar.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo empezar con Criptomonedas?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Wl3LKLr0De4?si=qpoW2wxYDLrjrzhi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/Wl3LKLr0De4?si=qpoW2wxYDLrjrzhi" target="_blank">¿Cómo empezar con Criptomonedas?</a></h2>
+                <p>Tutorial completo sobre el mundo de las criptomonedas, como empezar a invertir desde 0, de que se trata todo este ecosistema cripto y los distintos mercados existentes.</p>
               </div>
           </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo Comprar Criptomonedas en Perú?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/BeGIVGbAqU8?si=mYluGWD0Ly-_q-Rf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/BeGIVGbAqU8?si=mYluGWD0Ly-_q-Rf" target="_blank">¿Cómo Comprar Criptomonedas en Perú?</a></h2>
+                <p>Tutorial completo para empezar a invertir desde tu país</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/n9KAKw_fFyU?si=vtKResInOPHZq-nX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/n9KAKw_fFyU?si=vtKResInOPHZq-nX" target="_blank">¿Cómo utilizar Quantfury?</a></h2>
+                <p>Aquí podrás encontrar toda la información necesaria para empezar a utilizar Quantfury, la mejor plataforma para hacer trading de criptomoedas y acciones.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar OKX?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ev92jMEXDeA?si=5HkKBvvr7_TRYyv9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/ev92jMEXDeA?si=5HkKBvvr7_TRYyv9" target="_blank">¿Cómo utilizar OKX?</a></h2>
+                <p>Aprende a utilizar uno de los mercados de criptomoedas más importantes del planeta.</p>
               </div>
            </div>
           </div>
         </div>
-        <div
-          class="tab-pane fade"
-          id="nav-bolivia"
-          role="tabpanel"
-          aria-labelledby="nav-bolivia-tab"
-          tabindex="0"
-        >
+        <div class="tab-pane fade" id="nav-bolivia" role="tabpanel" aria-labelledby="nav-bolivia-tab" tabindex="0" >
           <div class="container-fluid">
             <div class="row">
               <div class="col-12">
@@ -695,8 +432,8 @@
                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/UzNANo3EyIY?si=oiKJ_epCuknDkEYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/U2kC7YJxXBs?si=nY-lhmBn5IfpIY08" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/U2kC7YJxXBs?si=nY-lhmBn5IfpIY08" target="_blank">¿Cómo crear tu cuenta en Quantfury?</a></h2>
+                <p>Aquí encontrarás un tutorial completo para crear tu cuenta en Quantfury por uno de los referentes del mundo de las Criptomonedas</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
                 <h2>¿Cómo crear tu cuenta en Ledn?</h2>
@@ -705,41 +442,35 @@
             </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en OKX?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/SX8ZgNQ-Ej0?si=7cYTylAfi3NF7Wva" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/SX8ZgNQ-Ej0?si=7cYTylAfi3NF7Wva" target="_blank">¿Cómo crear tu cuenta en OKX?</a></h2>
+                <p>En este enlace encontrarás el paso a paso para poder crear tu cuenta en OKX</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en TradingView?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/bEjtIkyYzbQ?si=Po_yWXlhCo2CuNfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/bEjtIkyYzbQ?si=Po_yWXlhCo2CuNfE" target="_blank">¿Cómo crear tu cuenta en TradingView?</a></h2>
+                <p>Acá encontrarás la mejor plataforma para seguir los precios en vivo de todas las criptomonedas, acciones, mercados y demás. Con las mejores herramientas y todo lo necesario para graficar.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo empezar con Criptomonedas?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ULEnuI8jMOY?si=pjcjM6EHv2p-YDcW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/ULEnuI8jMOY?si=pjcjM6EHv2p-YDcW" target="_blank">¿Cómo empezar con Criptomonedas?</a></h2>
+                <p>Tutorial completo sobre el mundo de las criptomonedas, como empezar a invertir desde 0, de que se trata todo este ecosistema cripto y los distintos mercados existentes.</p>
               </div>
           </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo Comprar Criptomonedas en Bolivia?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/B9oi1VicyO0?si=6Ov34VI0TMHbVGxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/B9oi1VicyO0?si=6Ov34VI0TMHbVGxv" target="_blank">¿Cómo Comprar Criptomonedas en Bolivia?</a></h2>
+                <p>Tutorial completo para empezar a invertir desde tu país</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Cvna5Yztt1w?si=DEDVKqBTgNNQXdLC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/Cvna5Yztt1w?si=DEDVKqBTgNNQXdLC" target="_blank">¿Cómo utilizar Quantfury?</a></h2>
+                <p>Aquí podrás encontrar toda la información necesaria para empezar a utilizar Quantfury, la mejor plataforma para hacer trading de criptomoedas y acciones.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar OKX?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ev92jMEXDeA?si=5HkKBvvr7_TRYyv9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/ev92jMEXDeA?si=5HkKBvvr7_TRYyv9" target="_blank">¿Cómo utilizar OKX?</a></h2>
+                <p>Aprende a utilizar uno de los mercados de criptomoedas más importantes del planeta.</p>
               </div>
            </div>
           </div>
         </div>
-        <div
-          class="tab-pane fade"
-          id="nav-mexico"
-          role="tabpanel"
-          aria-labelledby="nav-mexico-tab"
-          tabindex="0"
-        >
+        <div class="tab-pane fade" id="nav-mexico" role="tabpanel" aria-labelledby="nav-mexico-tab" tabindex="0" >
          <div class="container-fluid">
             <div class="row">
               <div class="col-12">
@@ -752,8 +483,8 @@
                 <iframe width="100%" height="auto" src="https://www.youtube.com/embed/BWK_7xBumFs?si=b8bS59C2W5sTtaEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/9ddCzxmO9Ac?si=5mRtcMCePLVDwqYB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/9ddCzxmO9Ac?si=5mRtcMCePLVDwqYB" target="_blank">¿Cómo crear tu cuenta en Quantfury?</a></h2>
+                <p>Aquí encontrarás un tutorial completo para crear tu cuenta en Quantfury por uno de los referentes del mundo de las Criptomonedas</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
                 <h2>¿Cómo crear tu cuenta en Ledn?</h2>
@@ -762,35 +493,35 @@
             </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en OKX?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ev92jMEXDeA?si=5MLCsH6ZKrpbnK9f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/ev92jMEXDeA?si=5MLCsH6ZKrpbnK9f" target="_blank">¿Cómo crear tu cuenta en OKX?</a></h2>
+                <p>En este enlace encontrarás el paso a paso para poder crear tu cuenta en OKX</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo crear tu cuenta en TradingView?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/KXruNXsVUFQ?si=FWqvwZQa8aaWocn-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/KXruNXsVUFQ?si=FWqvwZQa8aaWocn-" target="_blank">¿Cómo crear tu cuenta en TradingView?</a></h2>
+                <p>Acá encontrarás la mejor plataforma para seguir los precios en vivo de todas las criptomonedas, acciones, mercados y demás. Con las mejores herramientas y todo lo necesario para graficar.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo empezar con Criptomonedas?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/dgjoJm-UjOI?si=TSBPAbD6HilJG9fF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/dgjoJm-UjOI?si=TSBPAbD6HilJG9fF" target="_blank">¿Cómo empezar con Criptomonedas?</a></h2>
+                <p>Tutorial completo sobre el mundo de las criptomonedas, como empezar a invertir desde 0, de que se trata todo este ecosistema cripto y los distintos mercados existentes.</p>
               </div>
            </div>
             <div class="row">
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo Comprar Criptomonedas en México?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/B9oi1VicyO0?si=6Ov34VI0TMHbVGxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/B9oi1VicyO0?si=6Ov34VI0TMHbVGxv" target="_blank">¿Cómo Comprar Criptomonedas en México?</a></h2>
+                <p>Tutorial completo para empezar a invertir desde tu país</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar Quantfury?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Cvna5Yztt1w?si=DEDVKqBTgNNQXdLC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/Cvna5Yztt1w?si=DEDVKqBTgNNQXdLC" target="_blank">¿Cómo utilizar Quantfury?</a></h2>
+                <p>Aquí podrás encontrar toda la información necesaria para empezar a utilizar Quantfury, la mejor plataforma para hacer trading de criptomoedas y acciones.</p>
               </div>
               <div class="col-lg-4 col-md-12 p-3 border">
-                <h2>¿Cómo utilizar OKX?</h2>
-                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ev92jMEXDeA?si=5HkKBvvr7_TRYyv9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <h2><a href="https://www.youtube.com/embed/ev92jMEXDeA?si=5HkKBvvr7_TRYyv9" target="_blank">¿Cómo utilizar OKX?</a></h2>
+                <p>Aprende a utilizar uno de los mercados de criptomoedas más importantes del planeta.</p>
               </div>
            </div>
           </div>
         </div>
-      
+     </div>
     </main>
     <footer class="footer">
       <h2><a href="#tutoriales-tutoriales">Inicio</a></h2>
@@ -836,12 +567,29 @@
             </li>
           </ul>
       </div>
+          <button type="button" class="boton btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Donaciones</button>
+        <div class="mod modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="dialog modal-dialog">
+            <div class="conten modal-content">
+              <div class="modheader modal-header">
+                <h2 class="titulo modal-title fs-5" id="exampleModalLabel">Dirección de Bitcoin y Usdt</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modbody modal-body">
+                <p><spam>BITCOIN:</spam> 1DK86zZrunJwUoNjAv2zRimxLv9XmGbiTX</p>
+                <p><spam>USDT ERC20:</spam> 0x0e15c4704262cf0ef5555562b35a4f84349a043d</p>
+              </div>
+              <div class="modfooter modal-footer">
+                <article class="pie">- Gracias por su ayuda -</article>
+              </div>
+            </div>
+          </div>
+        </div>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script> AOS.init({ easing: 'ease-out-back',duration: 2000});</script>
   </body>

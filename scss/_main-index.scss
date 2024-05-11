@@ -1,0 +1,29 @@
+.main {
+  font-family: "Playfair Display", serif;
+  background: linear-gradient($color-fondo);
+  color: $color-letra;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .contenedor-main {
+    form {
+      padding: 5px;
+      background-color: black;
+      label {
+        color: #ffffff;
+        option {
+          color: #ffffff;
+        }
+      }
+    }
+    h2 {
+      text-align: center;
+    }
+    .imagen-central {
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+  }
+}

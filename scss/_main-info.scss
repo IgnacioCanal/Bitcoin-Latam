@@ -1,0 +1,48 @@
+.main-info {
+  h2 {
+    color: $color-letra;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    p {
+      font-size: 1.3rem;
+      line-height: 1.5;
+      padding: 0 50px 10px 50px;
+      color: white;
+      text-align: left;
+      spam {
+        color: $bitcoin;
+      }
+    }
+    img {
+      width: 800px;
+      height: 300px;
+      padding: 10px;
+    }
+  }
+  div {
+    text-align: center;
+    padding: 50px;
+    a {
+      font-size: 2rem;
+      text-decoration: none;
+      color: #4dc2b7;
+      padding: 5px;
+      spam {
+        color: $bitcoin;
+      }
+      &:hover {
+        text-shadow: 3px 3px 10px black, 5px 5px 5px $color-letra;
+        border-radius: 70%;
+        padding: 15px;
+      }
+    }
+  }
+}

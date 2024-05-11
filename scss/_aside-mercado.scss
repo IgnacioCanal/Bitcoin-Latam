@@ -1,0 +1,19 @@
+.aside-mercado {
+  background: linear-gradient($color-fondo);
+  color: #4dc2b7;
+  text-align: center;
+  padding: 20px;
+  line-height: 1.2;
+  div {
+    img {
+      padding: 20px;
+      width: 900px;
+    }
+    p {
+      text-align: center;
+      font-size: 1.2rem;
+      line-height: 1.3;
+      padding: 10px;
+    }
+  }
+}

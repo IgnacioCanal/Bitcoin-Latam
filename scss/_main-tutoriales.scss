@@ -1,0 +1,32 @@
+.tutoriales {
+  color: $color-letra;
+  .nav {
+    .nav-link {
+      color: $color-letra;
+      &:hover {
+        color: $color-letra;
+      }
+    }
+  }
+  .tab-content {
+    .tab-pane {
+      .container-fluid {
+        .row {
+          div {
+            h2 {
+              text-align: center;
+              a {
+                text-decoration: none;
+                color: $color-letra;
+              }
+            }
+            p {
+              text-align: center;
+              padding: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
