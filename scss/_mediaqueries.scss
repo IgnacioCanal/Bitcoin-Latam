@@ -118,6 +118,24 @@
   }
 }
 @media only screen and (max-width: 600px) {
+  .menuo {
+    .tutorialeso {
+      font-size: 1rem;
+    }
+  }
+  .main-info {
+    div {
+      a {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .contenedor-grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "main"
+    "aside";
+  }
   .aside {
     .noticias {
       div {
@@ -139,14 +157,13 @@
   .contenido-mercado {
     .main-mercado {
       .accordion {
+        width: 100%;
         .accordion-item {
           .accordion-collapse {
             .accordion-body {
-              section {
                 img {
                   width: 100%;
                 }
-              }
             }
           }
         }
@@ -154,23 +171,4 @@
     }
   }
 }
-@media only screen and (max-width: 400px) {
-  .menuo {
-    .tutorialeso {
-      font-size: 1rem;
-    }
-  }
-  .main-info {
-    div {
-      a {
-        font-size: 0.8rem;
-      }
-    }
-  }
-  .contenedor-grid{
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "main"
-    "aside";
-  }
-}
+
