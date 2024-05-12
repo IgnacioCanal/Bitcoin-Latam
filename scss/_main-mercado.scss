@@ -12,7 +12,6 @@
     p {
       padding: 10px;
       text-align: center;
-      height: 50px;
     }
   }
   .accordion {
@@ -41,27 +40,25 @@
       }
       .accordion-collapse {
         .accordion-body {
-          width: 100%;
-          padding: 0px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            img {
-              width: 600px;
-              height: auto;
+             width: 100%;
+             padding: 0px;
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             .img-fluid {
               padding: 10px;
               text-align: center;
-            }
-            p {
+              }
+              p {
               text-align: left;
               color: $color-letra;
-            }
-            ul {
-              li {
-                color: $color-letra;
               }
-            }
+              ul {
+                li {
+                color: $color-letra;
+                }
+              }
         }
       }
     }

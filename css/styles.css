@@ -173,7 +173,6 @@ body {
 .main-mercado div p {
   padding: 10px;
   text-align: center;
-  height: 50px;
 }
 .main-mercado .accordion {
   width: 60%;
@@ -209,9 +208,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.main-mercado .accordion .accordion-item .accordion-collapse .accordion-body img {
-  width: 600px;
-  height: auto;
+.main-mercado .accordion .accordion-item .accordion-collapse .accordion-body .img-fluid {
   padding: 10px;
   text-align: center;
 }
@@ -779,9 +776,6 @@ body {
     grid-template-areas: "caja1" "caja2" "caja3" "caja4" "caja5" "caja6";
   }
   .contenido-mercado .main-mercado .accordion {
-    width: 100%;
-  }
-  .contenido-mercado .main-mercado .accordion .accordion-item .accordion-collapse .accordion-body img {
     width: 100%;
   }
 }
