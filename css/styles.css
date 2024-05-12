@@ -246,31 +246,41 @@ body {
 .contenedor-grid .main-enlaces .formulario {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: left;
-  color: #4dc2b7;
   padding: 10px;
+  color: #4dc2b7;
 }
-.contenedor-grid .main-enlaces .formulario article {
-  font-size: 1rem;
+.contenedor-grid .main-enlaces .formulario p {
+  font-size: 2rem;
   padding: 5px;
-  color: #4dc2b7;
 }
-.contenedor-grid .main-enlaces .formulario .formulario-interno {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
+.contenedor-grid .main-enlaces .formulario input {
+  background-color: #4dc2b7;
+  color: white;
+  font-size: 1.5rem;
+}
+.contenedor-grid .main-enlaces .formulario textarea {
+  background-color: #4dc2b7;
+  color: white;
+}
+.contenedor-grid .main-enlaces .formulario .btn {
+  border: 2px solid #4dc2b7;
+  color: #4dc2b7;
+  font-size: 2rem;
+}
+.contenedor-grid .main-enlaces .formulario .btn:hover {
+  background-color: #4dc2b7;
+  color: white;
 }
 .contenedor-grid .aside-enlaces {
   grid-area: aside;
   color: #4dc2b7;
-  text-align: left;
+  text-align: center;
   padding: 20px;
 }
-.contenedor-grid .aside-enlaces article {
+.contenedor-grid .aside-enlaces p {
   padding: 5px;
 }
-.contenedor-grid .aside-enlaces article a {
+.contenedor-grid .aside-enlaces p a {
   color: #4dc2b7;
 }
 
@@ -555,21 +565,24 @@ body {
 }
 
 .aside-enlaces2 {
-  font-family: "Playfair Display", serif;
-  background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: #4dc2b7;
   text-align: center;
-  padding: 30px;
+  padding: 50px;
 }
 .aside-enlaces2 h4 {
   text-decoration: underline;
 }
-.aside-enlaces2 .imagen-final img {
+.aside-enlaces2 img {
   width: 800px;
-  padding-bottom: 20px;
+  padding: 30px 0px 30px 0px;
 }
-.aside-enlaces2 article {
-  font-size: 1rem;
+.aside-enlaces2 p {
+  width: 80%;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .footer {
@@ -726,6 +739,9 @@ body {
   .aside-mercado div img {
     width: 100%;
   }
+  .aside-enlaces2 img {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 600px) {
   .aside .noticias div {
@@ -750,6 +766,11 @@ body {
   }
   .main-info div a {
     font-size: 0.8rem;
+  }
+  .contenedor-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "main" "aside";
   }
 }
 

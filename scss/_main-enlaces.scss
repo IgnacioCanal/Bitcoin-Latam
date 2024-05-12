@@ -9,32 +9,43 @@
     .formulario {
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
-      align-items: left;
-      color: #4dc2b7;
       padding: 10px;
-      article {
-        font-size: 1rem;
+      color: $color-letra;
+      p {
+        font-size: 2rem;
         padding: 5px;
-        color: $color-letra;
       }
-      .formulario-interno {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
+      input{
+        background-color: $color-letra;
+        color: white;
+        font-size: 1.5rem;
+      }
+      textarea{
+        background-color: $color-letra;
+        color: white;
+      }
+      .btn{
+        border: 2px solid $color-letra;
+        color: $color-letra;
+        font-size: 2rem;
+        &:hover{
+          background-color: $color-letra;
+          color: white;
+        }
       }
     }
   }
   .aside-enlaces {
     grid-area: aside;
-    color: #4dc2b7;
-    text-align: left;
+    color: $color-letra;
+    text-align: center;
     padding: 20px;
-    article {
-      padding: 5px;
-      a {
-        color: $color-letra;
-      }
+      p {
+       padding: 5px;
+       a {
+         color: $color-letra;
+       }
+     }
     }
-  }
 }
+

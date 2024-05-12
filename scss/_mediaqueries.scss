@@ -111,6 +111,11 @@
       }
     }
   }
+  .aside-enlaces2{
+    img{
+      width: 100%;
+    }
+  }
 }
 @media only screen and (max-width: 600px) {
   .aside {
@@ -161,5 +166,11 @@
         font-size: 0.8rem;
       }
     }
+  }
+  .contenedor-grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "main"
+    "aside";
   }
 }
