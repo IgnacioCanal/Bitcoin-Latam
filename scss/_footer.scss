@@ -13,9 +13,9 @@
     a {
       padding: 10px;
       text-decoration: none;
-      color: #dedede;
+      color: #ffffff;
       &:hover {
-        color: $color-letra;
+        color: $color-titulo;
         padding: 10px;
       }
     }
@@ -31,13 +31,13 @@
       li {
         margin: 5px;
         padding: 10px;
-        color: white;
+        color: #ffffff;
         a {
-          color: white;
+          color: #ffffff;
           text-decoration: none;
           font-size: 1.2rem;
           &:hover {
-            color: #4dc2b7;
+            color: $color-titulo;
           }
         }
       }
@@ -68,32 +68,41 @@
     width: 110px;
     line-height: 20px;
     color: $color-letra;
+    border: 2px ridge #000000;
+    &:hover{
+      box-shadow: 2px 2px #000000;
+      color: $bitcoin;
+      background-color: #ffffff;
+    }
   }
   .mod {
     .dialog {
       .conten {
         .modheader {
           .titulo {
+            font-weight: bold;
             text-decoration: underline;
-            color: $color-letra;
+            color: $color-titulo;
             font-size: 2rem;
           }
         }
         .modbody {
           p {
-            color: $color-letra;
+            color:#000000;
             spam {
-              color: black;
-              text-decoration: underline;
+              color: #000000;
+              font-weight: bold;
             }
           }
         }
         .modfooter {
           .pie {
+            font-weight: bold;
+            color: $color-titulo;
             p {
               font-size: 2rem;
               spam {
-                color: black;
+                color: #000000;
               }
             }
           }

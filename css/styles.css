@@ -17,7 +17,7 @@ body {
   padding: 10px;
   height: 100px;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
-  color: #4dc2b7;
+  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -69,14 +69,14 @@ body {
 .header .navbaro ul li a {
   font-size: 18px;
   padding: 20px;
-  color: #4dc2b7;
+  color: white;
   display: block;
   font-weight: bold;
   text-decoration: none;
   transition: all 0.5s ease;
 }
 .header .navbaro ul li a:hover {
-  color: #ffffff;
+  color: #4dc2b7;
   border: 3px solid #032546;
   transform: scale(1.1, 1.1);
 }
@@ -88,7 +88,7 @@ body {
 .main {
   font-family: "Playfair Display", serif;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
-  color: #4dc2b7;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,6 +104,7 @@ body {
   color: #ffffff;
 }
 .main .contenedor-main h2 {
+  color: #4dc2b7;
   text-align: center;
 }
 .main .contenedor-main .imagen-central {
@@ -138,7 +139,8 @@ body {
 .main-info article img {
   width: 800px;
   height: 300px;
-  padding: 10px;
+  border: 4px solid rgb(255, 165, 0);
+  border-radius: 100%;
 }
 .main-info div {
   text-align: center;
@@ -154,17 +156,18 @@ body {
   color: rgb(255, 165, 0);
 }
 .main-info div a:hover {
-  text-shadow: 3px 3px 10px black, 5px 5px 5px #4dc2b7;
+  text-shadow: 3px 3px 10px black, 5px 5px 5px white;
   border-radius: 70%;
   padding: 15px;
 }
 
 .main-mercado {
-  color: #4dc2b7;
+  color: white;
   display: flex;
   flex-direction: column;
 }
 .main-mercado div h2 {
+  color: #4dc2b7;
   text-align: center;
   font-size: 1.2rem;
   text-decoration: 2px underline;
@@ -187,11 +190,11 @@ body {
 }
 .main-mercado .accordion .accordion-item .accordion-header {
   text-decoration: none;
-  color: #4dc2b7;
+  color: white;
 }
 .main-mercado .accordion .accordion-item .accordion-header .accordion-button {
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
-  color: #4dc2b7;
+  color: white;
   font-size: 2rem;
 }
 .main-mercado .accordion .accordion-item .accordion-header .accordion-button:focus {
@@ -214,27 +217,32 @@ body {
 }
 .main-mercado .accordion .accordion-item .accordion-collapse .accordion-body p {
   text-align: left;
-  color: #4dc2b7;
+  color: white;
 }
 .main-mercado .accordion .accordion-item .accordion-collapse .accordion-body ul li {
-  color: #4dc2b7;
+  color: white;
 }
 
 .tutoriales {
-  color: #4dc2b7;
+  color: white;
 }
 .tutoriales .nav .nav-link {
   color: #4dc2b7;
 }
 .tutoriales .nav .nav-link:hover {
-  color: #4dc2b7;
+  color: rgb(255, 165, 0);
 }
 .tutoriales .tab-content .tab-pane .container-fluid .row div h2 {
+  color: #4dc2b7;
   text-align: center;
 }
 .tutoriales .tab-content .tab-pane .container-fluid .row div h2 a {
   text-decoration: none;
   color: #4dc2b7;
+}
+.tutoriales .tab-content .tab-pane .container-fluid .row div h2 a:hover {
+  color: rgb(255, 165, 0);
+  text-shadow: 5px 5px 10px rgb(255, 165, 0);
 }
 .tutoriales .tab-content .tab-pane .container-fluid .row div p {
   text-align: center;
@@ -255,7 +263,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 10px;
-  color: #4dc2b7;
+  color: white;
 }
 .contenedor-grid .main-enlaces .formulario p {
   font-size: 2rem;
@@ -271,25 +279,110 @@ body {
   color: white;
 }
 .contenedor-grid .main-enlaces .formulario .btn {
-  border: 2px solid #4dc2b7;
-  color: #4dc2b7;
+  border: 2px solid white;
+  color: white;
   font-size: 2rem;
 }
 .contenedor-grid .main-enlaces .formulario .btn:hover {
-  background-color: #4dc2b7;
+  background-color: white;
   color: white;
 }
 .contenedor-grid .aside-enlaces {
   grid-area: aside;
-  color: #4dc2b7;
+  color: white;
   text-align: center;
   padding: 20px;
 }
+.contenedor-grid .aside-enlaces h2 {
+  color: #4dc2b7;
+}
 .contenedor-grid .aside-enlaces p {
   padding: 5px;
+  font-size: 1rem;
 }
-.contenedor-grid .aside-enlaces p a {
+.contenedor-grid .aside-enlaces .enlace1 {
+  width: 100px;
+  border: 3px solid #f0c620;
+  background-color: #000000;
+  border-radius: 45%;
+  font-weight: bold;
+}
+.contenedor-grid .aside-enlaces .enlace1:hover {
+  box-shadow: 3px 3px 10px #ffd700;
+}
+.contenedor-grid .aside-enlaces .enlace1 a {
+  color: #ffd700;
+  text-decoration: none;
+}
+.contenedor-grid .aside-enlaces .enlace1 a:hover {
+  color: #ffd700;
+  text-shadow: 3px 3px 10px #ffd700;
+}
+.contenedor-grid .aside-enlaces .enlace2 {
+  text-align: right;
   color: #4dc2b7;
+}
+.contenedor-grid .aside-enlaces .enlace2 a {
+  text-decoration: none;
+  color: #4dc2b7;
+  border: 1px solid #ffffff;
+  padding: 3px;
+  background-color: #ffffff;
+  border-radius: 30%;
+}
+.contenedor-grid .aside-enlaces .enlace2 a:hover {
+  color: #ffd700;
+  background-color: #000000;
+  border: #000000;
+}
+.contenedor-grid .aside-enlaces .enlace2 a spam {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.contenedor-grid .aside-enlaces .enlace3 {
+  background-color: #ffffff;
+  width: 100px;
+  font-size: 1.5rem;
+  border-radius: 40%;
+}
+.contenedor-grid .aside-enlaces .enlace3:hover {
+  box-shadow: 5px 3px 10px #000000;
+}
+.contenedor-grid .aside-enlaces .enlace3 a {
+  text-decoration: none;
+  color: #868080;
+}
+.contenedor-grid .aside-enlaces .enlace3 a:hover {
+  text-shadow: 2px 2px 6px #868080;
+}
+.contenedor-grid .aside-enlaces .enlace3 a spam {
+  color: #20caf0;
+}
+.contenedor-grid .aside-enlaces .enlace4 {
+  text-align: right;
+}
+.contenedor-grid .aside-enlaces .enlace4 img {
+  width: 80px;
+  border-radius: 100%;
+}
+.contenedor-grid .aside-enlaces .enlace4 img:hover {
+  box-shadow: 10px 10px 5px #000000;
+}
+.contenedor-grid .aside-enlaces .enlace5 {
+  text-align: left;
+}
+.contenedor-grid .aside-enlaces .enlace5 a {
+  width: 200px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 15px;
+}
+.contenedor-grid .aside-enlaces .enlace5 a:hover {
+  text-transform: capitalize;
+  font-weight: bold;
+  border: 3px outset #ffffff;
+  padding: 10px;
 }
 
 .aside {
@@ -299,7 +392,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
-  color: #4dc2b7;
+  color: white;
   border: 1px solid black;
 }
 .aside .noticias {
@@ -311,6 +404,7 @@ body {
   font-size: 20px;
 }
 .aside .noticias h2 {
+  color: #4dc2b7;
   text-align: center;
   text-decoration: underline;
   padding: 5px;
@@ -335,7 +429,7 @@ body {
   margin: 0 auto;
   padding: 10px;
   font-size: 16px;
-  color: #4dc2b7;
+  color: white;
   text-align: center;
 }
 .aside .noticias h3 {
@@ -361,29 +455,33 @@ body {
 }
 .aside-info .aside-contenido {
   padding: 20px;
-  color: #4dc2b7;
-  text-decoration: underline;
+  color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.aside-info .aside-contenido h2 {
+  color: #4dc2b7;
+  text-decoration: underline;
+}
 .aside-info .aside-contenido .video {
   padding: 20px;
 }
 
 .aside2-info {
-  color: #4dc2b7;
+  color: white;
   padding: 10px;
   text-align: center;
   width: 100%;
   height: auto;
 }
 .aside2-info h3 {
+  color: #4dc2b7;
   text-align: center;
   text-decoration: underline;
-  padding: 10px;
+  padding: 10px 0px 50px 0px;
 }
 .aside2-info .grid-info {
   display: grid;
@@ -401,8 +499,8 @@ body {
   background-image: url(../assets/img/cripto-wallet2.jpg);
   background-size: cover;
   color: black;
-  width: 300px;
-  height: 250px;
+  width: 350px;
+  height: 300px;
   transition: all 1s ease;
 }
 .aside2-info .grid-info .caja1:hover {
@@ -429,8 +527,8 @@ body {
   background-size: 100px;
   background-position: bottom right;
   color: black;
-  width: 300px;
-  height: 250px;
+  width: 350px;
+  height: 300px;
   transition: all 1s ease;
 }
 .aside2-info .grid-info .caja2:hover {
@@ -458,8 +556,8 @@ body {
   background-position: bottom center;
   color: black;
   font-size: 0.5rem;
-  width: 300px;
-  height: 250px;
+  width: 350px;
+  height: 300px;
   transition: all 1s ease;
 }
 .aside2-info .grid-info .caja3:hover {
@@ -487,8 +585,8 @@ body {
   background-position: bottom;
   color: white;
   font-size: 0.5rem;
-  width: 300px;
-  height: 250px;
+  width: 350px;
+  height: 300px;
   transition: all 1s ease;
 }
 .aside2-info .grid-info .caja4:hover {
@@ -511,8 +609,8 @@ body {
   padding: 3px;
   background-color: #2fbcae;
   color: black;
-  width: 300px;
-  height: 250px;
+  width: 350px;
+  height: 300px;
   transition: all 1s ease;
 }
 .aside2-info .grid-info .caja5:hover {
@@ -535,8 +633,8 @@ body {
   padding: 3px;
   background-color: black;
   color: white;
-  width: 300px;
-  height: 250px;
+  width: 350px;
+  height: 300px;
   transition: all 1s ease;
 }
 .aside2-info .grid-info .caja6:hover {
@@ -556,7 +654,7 @@ body {
 
 .aside-mercado {
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
-  color: #4dc2b7;
+  color: white;
   text-align: center;
   padding: 20px;
   line-height: 1.2;
@@ -564,6 +662,10 @@ body {
 .aside-mercado div img {
   padding: 20px;
   width: 900px;
+}
+.aside-mercado div h4 {
+  color: #4dc2b7;
+  text-decoration: underline;
 }
 .aside-mercado div p {
   text-align: center;
@@ -576,12 +678,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #4dc2b7;
+  color: white;
   text-align: center;
   padding: 50px;
 }
 .aside-enlaces2 h4 {
   text-decoration: underline;
+  color: #4dc2b7;
 }
 .aside-enlaces2 img {
   width: 800px;
@@ -600,7 +703,7 @@ body {
   height: 100px;
   text-align: center;
   background: linear-gradient(90deg, rgb(2, 25, 48) 0%, hsl(199, 87%, 21%) 70%);
-  color: #4dc2b7;
+  color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -608,7 +711,7 @@ body {
 .footer h2 a {
   padding: 10px;
   text-decoration: none;
-  color: #dedede;
+  color: #ffffff;
 }
 .footer h2 a:hover {
   color: #4dc2b7;
@@ -625,10 +728,10 @@ body {
 .footer .enlaces ul li {
   margin: 5px;
   padding: 10px;
-  color: white;
+  color: #ffffff;
 }
 .footer .enlaces ul li a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -657,25 +760,36 @@ body {
 .footer .boton {
   width: 110px;
   line-height: 20px;
-  color: #4dc2b7;
+  color: white;
+  border: 2px ridge #000000;
+}
+.footer .boton:hover {
+  box-shadow: 2px 2px #000000;
+  color: rgb(255, 165, 0);
+  background-color: #ffffff;
 }
 .footer .mod .dialog .conten .modheader .titulo {
+  font-weight: bold;
   text-decoration: underline;
   color: #4dc2b7;
   font-size: 2rem;
 }
 .footer .mod .dialog .conten .modbody p {
-  color: #4dc2b7;
+  color: #000000;
 }
 .footer .mod .dialog .conten .modbody p spam {
-  color: black;
-  text-decoration: underline;
+  color: #000000;
+  font-weight: bold;
+}
+.footer .mod .dialog .conten .modfooter .pie {
+  font-weight: bold;
+  color: #4dc2b7;
 }
 .footer .mod .dialog .conten .modfooter .pie p {
   font-size: 2rem;
 }
 .footer .mod .dialog .conten .modfooter .pie p spam {
-  color: black;
+  color: #000000;
 }
 
 @media only screen and (max-width: 1100px) {

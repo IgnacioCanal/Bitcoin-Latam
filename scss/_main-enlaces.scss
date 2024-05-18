@@ -16,12 +16,12 @@
         padding: 5px;
       }
       input{
-        background-color: $color-letra;
+        background-color: $color-titulo;
         color: white;
         font-size: 1.5rem;
       }
       textarea{
-        background-color: $color-letra;
+        background-color: $color-titulo;
         color: white;
       }
       .btn{
@@ -40,12 +40,98 @@
     color: $color-letra;
     text-align: center;
     padding: 20px;
+    h2{
+      color: $color-titulo;
+    }
       p {
        padding: 5px;
+       font-size: 1rem;
+     }
+     .enlace1{
+      width: 100px;
+      border: 3px solid #f0c620;
+      background-color: #000000;
+      border-radius: 45%;
+      font-weight: bold;
+      &:hover{
+        box-shadow: 3px 3px 10px #ffd700;
+      }
        a {
-         color: $color-letra;
-       }
+        color: #ffd700;
+        text-decoration: none;
+        &:hover{
+          color: #ffd700;
+          text-shadow: 3px 3px 10px #ffd700;
+        }
+        }
+      }
+      .enlace2{
+        text-align: right;
+        color: $color-titulo;
+        a{
+          text-decoration: none;
+          color: $color-titulo;
+          border: 1px solid #ffffff;
+          padding: 3px;
+          background-color: #ffffff;
+          border-radius: 30%;
+          &:hover{
+            color: #ffd700;
+            background-color: #000000;
+            border: #000000;
+          }
+          spam{
+            font-weight: bold;
+            font-size: 1.4rem;
+          }
+        }
+      }
+      .enlace3{
+        background-color: #ffffff;
+        width: 100px;
+        font-size: 1.5rem;
+        border-radius: 40%;
+        &:hover{
+          box-shadow: 5px 3px 10px #000000;
+        }
+        a{
+          text-decoration: none;
+          color: #868080;
+          &:hover{
+            text-shadow: 2px 2px 6px #868080;
+          }
+          spam{
+            color: #20caf0;
+          }
+        }
+      }
+      .enlace4{
+        text-align: right;
+        img{
+          width: 80px;
+          border-radius: 100%;
+          &:hover{
+            box-shadow: 10px 10px 5px #000000;
+          }
+        }
+      }
+      .enlace5{
+        text-align: left;
+        a{
+          width: 200px;
+          text-decoration: none;
+          color: #ffffff;
+          background-color: #000000;
+          padding: 15px;
+          &:hover{
+            text-transform: capitalize;
+            font-weight: bold;
+            border: 3px outset #ffffff;
+            padding: 10px;
+          }
+        }
+      }
      }
     }
-}
+
 

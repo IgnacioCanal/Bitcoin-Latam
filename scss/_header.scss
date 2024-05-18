@@ -34,7 +34,7 @@
   .tutorialeso {
     padding: 10px;
     font-size: 2.5rem;
-    color: #4dc2b7;
+    color: $color-titulo;
     text-transform: uppercase;
     text-decoration: underline;
     font-weight: bold;
@@ -62,7 +62,7 @@
           text-decoration: none;
           transition: all 0.5s ease;
           &:hover {
-            color: #ffffff;
+            color: $color-titulo;
             border: 3px solid #032546;
             transform: scale(1.1, 1.1);
           }

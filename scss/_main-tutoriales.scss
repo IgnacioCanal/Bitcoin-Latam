@@ -2,9 +2,9 @@
   color: $color-letra;
   .nav {
     .nav-link {
-      color: $color-letra;
+      color: $color-titulo;
       &:hover {
-        color: $color-letra;
+        color: $bitcoin;
       }
     }
   }
@@ -14,10 +14,15 @@
         .row {
           div {
             h2 {
+              color: $color-titulo;
               text-align: center;
               a {
                 text-decoration: none;
-                color: $color-letra;
+                color: $color-titulo;
+                &:hover{
+                  color: $bitcoin;
+                  text-shadow: 5px 5px 10px $bitcoin;
+                }
               }
             }
             p {

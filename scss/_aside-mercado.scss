@@ -1,6 +1,6 @@
 .aside-mercado {
   background: linear-gradient($color-fondo);
-  color: #4dc2b7;
+  color: $color-letra;
   text-align: center;
   padding: 20px;
   line-height: 1.2;
@@ -8,6 +8,10 @@
     img {
       padding: 20px;
       width: 900px;
+    }
+    h4{
+      color: $color-titulo;
+      text-decoration: underline;
     }
     p {
       text-align: center;

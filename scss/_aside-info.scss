@@ -3,12 +3,15 @@
   .aside-contenido {
     padding: 20px;
     color: $color-letra;
-    text-decoration: underline;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    h2{
+      color: $color-titulo;
+      text-decoration: underline;
+    }
     .video {
       padding: 20px;
     }
@@ -21,9 +24,10 @@
   width: 100%;
   height: auto;
   h3 {
+    color: $color-titulo;
     text-align: center;
     text-decoration: underline;
-    padding: 10px;
+    padding: 10px 0px 50px 0px;
   }
   .grid-info {
     display: grid;
@@ -40,8 +44,8 @@
       background-image: url(../assets/img/cripto-wallet2.jpg);
       background-size: cover;
       color: black;
-      width: 300px;
-      height: 250px;
+      width: 350px;
+      height: 300px;
       transition: all 1s ease;
       &:hover {
         box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
@@ -70,8 +74,8 @@
       background-size: 100px;
       background-position: bottom right;
       color: black;
-      width: 300px;
-      height: 250px;
+      width: 350px;
+      height: 300px;
       transition: all 1s ease;
       &:hover {
         box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
@@ -101,8 +105,8 @@
       background-position: bottom center;
       color: black;
       font-size: 0.5rem;
-      width: 300px;
-      height: 250px;
+      width: 350px;
+      height: 300px;
       transition: all 1s ease;
       &:hover {
         box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
@@ -132,8 +136,8 @@
       background-position: bottom;
       color: white;
       font-size: 0.5rem;
-      width: 300px;
-      height: 250px;
+      width: 350px;
+      height: 300px;
       transition: all 1s ease;
       &:hover {
         box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
@@ -158,8 +162,8 @@
       padding: 3px;
       background-color: #2fbcae;
       color: black;
-      width: 300px;
-      height: 250px;
+      width: 350px;
+      height: 300px;
       transition: all 1s ease;
       &:hover {
         box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
@@ -184,8 +188,8 @@
       padding: 3px;
       background-color: black;
       color: white;
-      width: 300px;
-      height: 250px;
+      width: 350px;
+      height: 300px;
       transition: all 1s ease;
       &:hover {
         box-shadow: 3px 3px 10px white, 4px 4px 10px gold;
