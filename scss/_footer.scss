@@ -69,6 +69,7 @@
     line-height: 20px;
     color: $color-letra;
     border: 2px ridge #000000;
+    background-color: $color-titulo;
     &:hover{
       box-shadow: 2px 2px #000000;
       color: $bitcoin;
